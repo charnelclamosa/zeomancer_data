@@ -1,0 +1,170 @@
+
+{{ $events := .Site.Data.events.payload }}
+<div class="container text-center pt-4 pb-2">
+  <h2>Recorded Temperature Visualizer</h2>
+</div>
+<section class="d-flex justify-content-between p-2">
+  <div>
+    <label for="event_type">Filter by event type:</label>
+    <select name="event_type" id="event_type" onchange="filterMarkers()">
+      <option value="all_temp">All</option>
+      <option value="TMAX">Maximum temperature</option>
+      <option value="TLOW">Lowest temperature</option>
+    </select>
+  </div>
+  <div>
+    <div>
+      <label for="date_range">Filter by:</label>
+      <select name="date_range" id="date_range" onchange="filterMarkers()">
+        <option value="past_day">Past 24 hours</option>
+        <option value="past_week">Past week</option>
+        <option value="past_month">Past month</option>
+      </select>
+    </div>
+  </div>
+</section>
+<section class="hero" id="home">
+  <div id="map"></div>
+</section>
+<script>
+  const _TMAX = 'TMAX'
+  const _TLOW = 'TLOW'
+  const _FILTER_EVENT_ALL = 'all_temp'
+  const _FILTER_EVENT_TMAX = _TMAX
+  const _FILTER_EVENT_TLOW = _TLOW
+  const _FILTER_DATE_PAST_DAY = 'past_day'
+  const _FILTER_DATE_PAST_WEEK = 'past_week'
+  const _FILTER_DATE_PAST_MONTH = 'past_month'
+  let events = {{ $events }};
+  
+  // function foo() {
+  //   events.forEach(element => {
+  //     element.properties.date = '2023-07-12'
+  //     element.properties.place_type = 'CITY'
+  //     element.properties.event = 'TMAX'
+  //     let lat = element.geometry.coordinates[0]
+  //     let lng = element.geometry.coordinates[1]
+  //     element.geometry.coordinates[0] = lng
+  //     element.geometry.coordinates[1] = lat
+  //   });
+  //   // console.log(events)
+  //   // str_arr = events.map((element) => {JSON.stringify(element)})
+  //   // newArray = str_arr.map((x) => JSON.parse(x))
+  //   // console.log(JSON.stringify(events))
+  // }
+  // foo()
+
+  var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 15,
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  });
+  var map = L.map('map').addLayer(tiles);
+
+  var markers = L.markerClusterGroup();
+  
+  var popup = L.popup();
+
+  // function onMapClick(e) {
+  //   popup
+  //       .setLatLng(e.latlng)
+  //       .setContent("You clicked the map at " + e.latlng.toString())
+  //       .openOn(map);
+  // }
+
+  // map.on('click', onMapClick);
+
+  function generateHTMLHeadline(props) {
+    // const placeType = props.place_type
+    const event = props.event == 'TMAX' ? 'max temperature' : 'low temperature'; 
+    let content = `
+      ${props.date}
+      <hr>
+      <p>
+        <strong>${props.name}</strong> records a ${event} of <strong>${props.temp}</strong> °F.
+      </p>
+    `
+    return content
+
+  }
+  
+  function addPopups(feature, layer) {
+    let props = feature.properties
+    if (props) {
+      layer.bindPopup(generateHTMLHeadline(feature.properties));
+      layer.bindTooltip({
+        permanent: true,
+        direction: 'center',
+        className: "my-labels"
+      })
+    }
+  }
+
+  function createCustomMarker(feature, latlng) {
+    let customIcon = L.icon({
+      iconUrl: "/images/icons/marker.png",
+      iconSize: [35, 35],
+      popupAnchor: [0, 0]
+    })
+    return L.marker(latlng, { icon: customIcon })
+  }
+  
+  function displayMarkers(eventFilter, dateRange) {
+    var geoJsonLayer = L.geoJSON(events, {
+      pointToLayer: createCustomMarker,
+      // filter: (feature, layer) => {
+      //   const props = feature.properties;
+      //   if (eventFilter == _FILTER_EVENT_ALL) {
+      //     if (dateRange == _FILTER_DATE_PAST_DAY) return props.date >= getPastDay();
+      //     if (dateRange == _FILTER_DATE_PAST_WEEK) return props.date >= getPastWeek();
+      //     if (dateRange == _FILTER_DATE_PAST_MONTH) return props.date >= getPastMonth();
+      //   };
+      //   if (eventFilter == _FILTER_EVENT_TMAX) {
+      //     if (dateRange == _FILTER_DATE_PAST_DAY) return props.event == _TMAX && props.date >= getPastDay();
+      //     if (dateRange == _FILTER_DATE_PAST_WEEK) return props.event == _TMAX && props.date >= getPastWeek();
+      //     if (dateRange == _FILTER_DATE_PAST_MONTH) return props.event == _TMAX && props.date >= getPastMonth();
+      //   };
+      //   if (eventFilter == _FILTER_EVENT_TLOW) {
+      //     if (dateRange == _FILTER_DATE_PAST_DAY) return props.event == _TLOW && props.date >= getPastDay();
+      //     if (dateRange == _FILTER_DATE_PAST_WEEK) return props.event == _TLOW && props.date >= getPastWeek();
+      //     if (dateRange == _FILTER_DATE_PAST_MONTH) return props.event == _TLOW && props.date >= getPastMonth();
+      //   };
+      // },
+      onEachFeature: addPopups
+    });
+    markers.addLayer(geoJsonLayer);
+    map.addLayer(markers);
+    if (Object.keys(markers.getBounds()).length == 0) {
+      return map.setView([39.997519, -95.185547], 5)
+    }
+    map.fitBounds(markers.getBounds());
+    
+  }
+
+  function removeMarkers() {
+    markers.clearLayers();
+  }
+  
+  function filterMarkers() {
+    const selectedEventFilter = $('#event_type').find(":selected").val();
+    const selectedDateRange = $('#date_range').find(":selected").val();
+
+    removeMarkers();
+    displayMarkers(selectedEventFilter, selectedDateRange);
+  }
+
+  function getPastDay() {
+    return moment().subtract(1, 'days').format('YYYY-MM-DD');
+  }
+
+  function getPastWeek() {
+    return moment().subtract(1, 'weeks').format('YYYY-MM-DD');
+  }
+
+  function getPastMonth() {
+    return moment().subtract(1, 'months').format('YYYY-MM-DD');
+  }
+
+  filterMarkers()
+  
+
+</script>

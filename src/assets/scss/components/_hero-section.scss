@@ -1,0 +1,17 @@
+.hero {
+  position:relative;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  #map { 
+    height: 80vh;
+    width: 100vw; 
+  }
+  .leaflet-tooltip.my-labels {
+    background-color: transparent;
+    border: transparent;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 9px;
+    }
+}

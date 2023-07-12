@@ -1,0 +1,6366 @@
+{
+  "payload": [
+    {
+      "geometry": {
+        "coordinates": [
+          54.651,
+          24.433
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 378,
+        "100%": 455,
+        "25%": 388.5,
+        "50%": 416,
+        "75%": 445.5,
+        "anomaly": -30.8667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 417.8667,
+        "name": "ABU DHABI INTL",
+        "place_type": "CITY",
+        "sd": 29.2254,
+        "sigmas": 1.0562,
+        "temp": 387
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.609,
+          24.262
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 413,
+        "100%": 455,
+        "25%": 422.75,
+        "50%": 436.5,
+        "75%": 449,
+        "anomaly": -73.25,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 435.25,
+        "name": "AL AIN INTL",
+        "place_type": "CITY",
+        "sd": 19.2246,
+        "sigmas": 3.8102,
+        "temp": 362
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          2.89,
+          33.7997
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 376,
+        "100%": 400,
+        "25%": 383.5,
+        "50%": 388,
+        "75%": 392.5,
+        "anomaly": 27,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 388,
+        "name": "LAGHOUAT",
+        "place_type": "CITY",
+        "sd": 9.9331,
+        "sigmas": 2.7182,
+        "temp": 415
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          5.07,
+          36.712
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 240,
+        "100%": 325,
+        "25%": 260.75,
+        "50%": 270.5,
+        "75%": 281.75,
+        "anomaly": 64.1667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 275.8333,
+        "name": "SOUMMAM",
+        "place_type": "CITY",
+        "sd": 21.1797,
+        "sigmas": 3.0296,
+        "temp": 340
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.767,
+          36.067
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 261,
+        "100%": 380,
+        "25%": 308,
+        "50%": 337,
+        "75%": 361,
+        "anomaly": 51.7059,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 331.2941,
+        "name": "BORDJ-BOU-ARRERIDJ",
+        "place_type": "CITY",
+        "sd": 38.2651,
+        "sigmas": 1.3513,
+        "temp": 383
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          6.183,
+          35.55
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 287,
+        "100%": 394,
+        "25%": 315,
+        "50%": 336,
+        "75%": 360,
+        "anomaly": -37,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 337,
+        "name": "BATNA",
+        "place_type": "CITY",
+        "sd": 32.0139,
+        "sigmas": 1.1557,
+        "temp": 300
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          0.147,
+          35.208
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 340,
+        "100%": 437,
+        "25%": 348,
+        "50%": 403,
+        "75%": 416,
+        "anomaly": -50.8,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 388.8,
+        "name": "GHRISS",
+        "place_type": "CITY",
+        "sd": 42.7516,
+        "sigmas": 1.1883,
+        "temp": 338
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          1.463,
+          35.341
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 280,
+        "100%": 396,
+        "25%": 324,
+        "50%": 355,
+        "75%": 365,
+        "anomaly": -48.8824,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 345.8824,
+        "name": "BOU CHEKIF",
+        "place_type": "CITY",
+        "sd": 33.7914,
+        "sigmas": 1.4466,
+        "temp": 297
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.206,
+          35.333
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 336,
+        "100%": 438,
+        "25%": 370,
+        "50%": 392.5,
+        "75%": 422.75,
+        "anomaly": -40,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 391,
+        "name": "BOU SAADA",
+        "place_type": "CITY",
+        "sd": 37.6374,
+        "sigmas": 1.0628,
+        "temp": 351
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          3.25,
+          34.683
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 280,
+        "100%": 370,
+        "25%": 311,
+        "50%": 346,
+        "75%": 358,
+        "anomaly": -40.6818,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 332.6818,
+        "name": "DJELFA/TLETSI",
+        "place_type": "CITY",
+        "sd": 30.4418,
+        "sigmas": 1.3364,
+        "temp": 292
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          0.15,
+          34.867
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 382,
+        "100%": 424,
+        "25%": 391,
+        "50%": 407,
+        "75%": 421,
+        "anomaly": -80,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 405,
+        "name": "SAIDA",
+        "place_type": "CITY",
+        "sd": 20.2978,
+        "sigmas": 3.9413,
+        "temp": 325
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -0.242,
+          33.536
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 322,
+        "100%": 392,
+        "25%": 356,
+        "50%": 370,
+        "75%": 380,
+        "anomaly": 28.1765,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 366.8235,
+        "name": "MECHERIA",
+        "place_type": "CITY",
+        "sd": 19.8187,
+        "sigmas": 1.4217,
+        "temp": 395
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          1,
+          33.667
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 290,
+        "100%": 374,
+        "25%": 336,
+        "50%": 350,
+        "75%": 360,
+        "anomaly": -43.9565,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 342.9565,
+        "name": "EL-BAYADH",
+        "place_type": "CITY",
+        "sd": 24.0444,
+        "sigmas": 1.8281,
+        "temp": 299
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          5.413,
+          31.917
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 402,
+        "100%": 460,
+        "25%": 425,
+        "50%": 435.5,
+        "75%": 451,
+        "anomaly": -34.125,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 435.125,
+        "name": "OUARGLA",
+        "place_type": "CITY",
+        "sd": 21.2431,
+        "sigmas": 1.6064,
+        "temp": 401
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          0.276,
+          29.237
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 420,
+        "100%": 470,
+        "25%": 446.5,
+        "50%": 456,
+        "75%": 463.25,
+        "anomaly": 26.4375,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 453.5625,
+        "name": "TIMIMOUN",
+        "place_type": "CITY",
+        "sd": 13.716,
+        "sigmas": 1.9275,
+        "temp": 480
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          47.75,
+          40.65
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 280,
+        "100%": 330,
+        "25%": 300,
+        "50%": 320,
+        "75%": 325,
+        "anomaly": 27,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 310,
+        "name": "GOYCHAY",
+        "place_type": "CITY",
+        "sd": 26.4575,
+        "sigmas": 1.0205,
+        "temp": 337
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          46.017,
+          39.533
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 260,
+        "100%": 270,
+        "25%": 262.5,
+        "50%": 265,
+        "75%": 267.5,
+        "anomaly": -50,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 265,
+        "name": "SISIAN",
+        "place_type": "CITY",
+        "sd": 7.0711,
+        "sigmas": 7.0711,
+        "temp": 215
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -170.7136,
+          -14.3306
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 272,
+        "100%": 317,
+        "25%": 280.5,
+        "50%": 289,
+        "75%": 294,
+        "anomaly": -11.4194,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 288.4194,
+        "name": "PAGO PAGO WSO AP",
+        "place_type": "CITY",
+        "sd": 11.1558,
+        "sigmas": 1.0236,
+        "temp": 277
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -65.6,
+          -22.1
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 114,
+        "100%": 187,
+        "25%": 132,
+        "50%": 147,
+        "75%": 159.5,
+        "anomaly": 35.0323,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 146.9677,
+        "name": "LA QUIACA OBSERVATO",
+        "place_type": "CITY",
+        "sd": 18.3693,
+        "sigmas": 1.9071,
+        "temp": 182
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -62.9,
+          -24.167
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 132,
+        "100%": 333,
+        "25%": 205,
+        "50%": 222,
+        "75%": 273,
+        "anomaly": 62.1111,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 233.8889,
+        "name": "RIVADAVIA",
+        "place_type": "CITY",
+        "sd": 47.2085,
+        "sigmas": 1.3157,
+        "temp": 296
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -64.3,
+          -27.767
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 132,
+        "100%": 289,
+        "25%": 169.5,
+        "50%": 205,
+        "75%": 240,
+        "anomaly": 78.1935,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 203.8065,
+        "name": "SANTIAGO DEL ESTERO",
+        "place_type": "CITY",
+        "sd": 45.9263,
+        "sigmas": 1.7026,
+        "temp": 282
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -66.817,
+          -29.383
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 78,
+        "100%": 247,
+        "25%": 165.75,
+        "50%": 194,
+        "75%": 210.75,
+        "anomaly": 60.5,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 186.5,
+        "name": "LA RIOJA AERO.",
+        "place_type": "CITY",
+        "sd": 38.1555,
+        "sigmas": 1.5856,
+        "temp": 247
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -61.95,
+          -29.883
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 84,
+        "100%": 269,
+        "25%": 154,
+        "50%": 182,
+        "75%": 234,
+        "anomaly": -75.8621,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 189.8621,
+        "name": "CERES AERO",
+        "place_type": "CITY",
+        "sd": 49.347,
+        "sigmas": 1.5373,
+        "temp": 114
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -71.15,
+          -42.933
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": -32,
+        "100%": 138,
+        "25%": 38.5,
+        "50%": 65,
+        "75%": 83.5,
+        "anomaly": 56.4074,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 61.5926,
+        "name": "ESQUEL AERO",
+        "place_type": "CITY",
+        "sd": 43.5062,
+        "sigmas": 1.2965,
+        "temp": 118
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -67.5,
+          -45.783
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 0,
+        "100%": 192,
+        "25%": 65.5,
+        "50%": 104,
+        "75%": 141,
+        "anomaly": 54.7742,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 106.2258,
+        "name": "COMODORO RIVADAVIA",
+        "place_type": "CITY",
+        "sd": 43.971,
+        "sigmas": 1.2457,
+        "temp": 161
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -62.167,
+          -38.733
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 74,
+        "100%": 218,
+        "25%": 98,
+        "50%": 140,
+        "75%": 175.25,
+        "anomaly": 49.5,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 137.5,
+        "name": "BAHIA BLANCA AERO",
+        "place_type": "CITY",
+        "sd": 44.8267,
+        "sigmas": 1.1043,
+        "temp": 187
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -64.329,
+          -23.153
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 145,
+        "100%": 263,
+        "25%": 171.25,
+        "50%": 187,
+        "75%": 211.25,
+        "anomaly": 89.5,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 195.5,
+        "name": "ORAN",
+        "place_type": "CITY",
+        "sd": 49.4941,
+        "sigmas": 1.8083,
+        "temp": 285
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -65.098,
+          -24.393
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 106,
+        "100%": 272,
+        "25%": 160,
+        "50%": 212,
+        "75%": 243,
+        "anomaly": 55.6923,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 200.3077,
+        "name": "JUJUY",
+        "place_type": "CITY",
+        "sd": 50.8959,
+        "sigmas": 1.0942,
+        "temp": 256
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -58.228,
+          -26.213
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 153,
+        "100%": 294,
+        "25%": 184,
+        "50%": 280,
+        "75%": 283,
+        "anomaly": -113.1111,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 240.1111,
+        "name": "FORMOSA",
+        "place_type": "CITY",
+        "sd": 56.2349,
+        "sigmas": 2.0114,
+        "temp": 127
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -58.762,
+          -27.446
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 139,
+        "100%": 280,
+        "25%": 216.5,
+        "50%": 230,
+        "75%": 260,
+        "anomaly": -104.8571,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 228.8571,
+        "name": "CORRIENTES",
+        "place_type": "CITY",
+        "sd": 46.8132,
+        "sigmas": 2.2399,
+        "temp": 124
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -65.752,
+          -28.596
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 120,
+        "100%": 260,
+        "25%": 180,
+        "50%": 204,
+        "75%": 221,
+        "anomaly": 45,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 198,
+        "name": "CATAMARCA",
+        "place_type": "CITY",
+        "sd": 38.2056,
+        "sigmas": 1.1778,
+        "temp": 243
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -63.683,
+          -29.9
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 167,
+        "100%": 219,
+        "25%": 191.5,
+        "50%": 216,
+        "75%": 217.5,
+        "anomaly": -40.6667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 200.6667,
+        "name": "VILLA MARIA DEL RIO",
+        "place_type": "CITY",
+        "sd": 29.1947,
+        "sigmas": 1.3929,
+        "temp": 160
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -68.418,
+          -31.571
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 124,
+        "100%": 210,
+        "25%": 137,
+        "50%": 160.5,
+        "75%": 178.5,
+        "anomaly": 44.0833,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 161.9167,
+        "name": "SAN JUAN",
+        "place_type": "CITY",
+        "sd": 30.5181,
+        "sigmas": 1.4445,
+        "temp": 206
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -63.883,
+          -31.667
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 156,
+        "100%": 220,
+        "25%": 167,
+        "50%": 184,
+        "75%": 191,
+        "anomaly": -30.2857,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 182.2857,
+        "name": "PILAR OBSERVATORIO",
+        "place_type": "CITY",
+        "sd": 21.4221,
+        "sigmas": 1.4138,
+        "temp": 152
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -65.387,
+          -33.73
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 80,
+        "100%": 250,
+        "25%": 133.5,
+        "50%": 169,
+        "75%": 196.75,
+        "anomaly": -96.875,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 166.875,
+        "name": "VILLA REYNOLDS",
+        "place_type": "CITY",
+        "sd": 57.7716,
+        "sigmas": 1.6769,
+        "temp": 70
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -64.261,
+          -33.085
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 81,
+        "100%": 221,
+        "25%": 141.5,
+        "50%": 162,
+        "75%": 177,
+        "anomaly": 62.7273,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 156.2727,
+        "name": "RIO CUARTO AREA DE MATERIAL",
+        "place_type": "CITY",
+        "sd": 44.0842,
+        "sigmas": 1.4229,
+        "temp": 219
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -68.403,
+          -34.588
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 81,
+        "100%": 190,
+        "25%": 118.25,
+        "50%": 143,
+        "75%": 155.75,
+        "anomaly": -47.875,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 137.875,
+        "name": "SAN RAFAEL",
+        "place_type": "CITY",
+        "sd": 36.2351,
+        "sigmas": 1.3212,
+        "temp": 90
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -63.758,
+          -35.696
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 111,
+        "100%": 196,
+        "25%": 137.5,
+        "50%": 140,
+        "75%": 140.5,
+        "anomaly": 31.7143,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 143.2857,
+        "name": "GENERAL PICO",
+        "place_type": "CITY",
+        "sd": 25.5846,
+        "sigmas": 1.2396,
+        "temp": 175
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -61.883,
+          -37.433
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 94,
+        "100%": 110,
+        "25%": 106,
+        "50%": 110,
+        "75%": 110,
+        "anomaly": -12,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 106,
+        "name": "CORONEL SUAREZ AERO",
+        "place_type": "CITY",
+        "sd": 8,
+        "sigmas": 1.5,
+        "temp": 94
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -60.217,
+          -36.883
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 100,
+        "100%": 105,
+        "25%": 101.25,
+        "50%": 102.5,
+        "75%": 103.75,
+        "anomaly": 26.5,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 102.5,
+        "name": "OLAVARRIA AERO",
+        "place_type": "CITY",
+        "sd": 3.5355,
+        "sigmas": 7.4953,
+        "temp": 129
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -57.733,
+          -36.35
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 90,
+        "100%": 174,
+        "25%": 110,
+        "50%": 126,
+        "75%": 149.5,
+        "anomaly": 42.1429,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 129.8571,
+        "name": "DOLORES AIRPORT",
+        "place_type": "CITY",
+        "sd": 29.8688,
+        "sigmas": 1.4109,
+        "temp": 172
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -71.017,
+          -46.517
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 18,
+        "100%": 82,
+        "25%": 35,
+        "50%": 40,
+        "75%": 45.75,
+        "anomaly": 61.5,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 43.5,
+        "name": "PERITO MORENO ARPT",
+        "place_type": "CITY",
+        "sd": 21.3799,
+        "sigmas": 2.8765,
+        "temp": 105
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -65.904,
+          -47.735
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 52,
+        "100%": 92,
+        "25%": 68.5,
+        "50%": 85,
+        "75%": 88.5,
+        "anomaly": 43.6667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 76.3333,
+        "name": "PUERTO DESEADO",
+        "place_type": "CITY",
+        "sd": 21.362,
+        "sigmas": 2.0441,
+        "temp": 120
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -67.803,
+          -49.307
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 38,
+        "100%": 116,
+        "25%": 60.5,
+        "50%": 88,
+        "75%": 103.5,
+        "anomaly": 59.25,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 81.75,
+        "name": "SAN JULIAN",
+        "place_type": "CITY",
+        "sd": 27.8606,
+        "sigmas": 2.1267,
+        "temp": 141
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          126.6453,
+          -14.2964
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 310,
+        "100%": 330,
+        "25%": 315,
+        "50%": 320,
+        "75%": 325,
+        "anomaly": -27,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 320,
+        "name": "KALUMBURU",
+        "place_type": "CITY",
+        "sd": 14.1421,
+        "sigmas": 1.9092,
+        "temp": 293
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          126.3114,
+          -15.3797
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 255,
+        "100%": 320,
+        "25%": 283,
+        "50%": 290,
+        "75%": 297.5,
+        "anomaly": -37.5455,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 289.5455,
+        "name": "DOONGAN",
+        "place_type": "CITY",
+        "sd": 18.0464,
+        "sigmas": 2.0805,
+        "temp": 252
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          128.71,
+          -15.7814
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 249,
+        "100%": 346,
+        "25%": 296.75,
+        "50%": 309.5,
+        "75%": 314.25,
+        "anomaly": -30.8333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 303.8333,
+        "name": "KUNUNURRA AERO",
+        "place_type": "CITY",
+        "sd": 24.4088,
+        "sigmas": 1.2632,
+        "temp": 273
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          128.4517,
+          -16.6381
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 279,
+        "100%": 336,
+        "25%": 292,
+        "50%": 299,
+        "75%": 314,
+        "anomaly": -35.7143,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 303.7143,
+        "name": "ARGYLE AERODROME",
+        "place_type": "CITY",
+        "sd": 19.328,
+        "sigmas": 1.8478,
+        "temp": 268
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.6764,
+          -19.0861
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 258,
+        "100%": 339,
+        "25%": 294,
+        "50%": 317,
+        "75%": 320,
+        "anomaly": -47.6,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 305.6,
+        "name": "NITA DOWNS",
+        "place_type": "CITY",
+        "sd": 31.0371,
+        "sigmas": 1.5336,
+        "temp": 258
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          125.5619,
+          -18.1814
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 290,
+        "100%": 310,
+        "25%": 300,
+        "50%": 310,
+        "75%": 310,
+        "anomaly": -27.3333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 303.3333,
+        "name": "FITZROY CROSSING AERO",
+        "place_type": "CITY",
+        "sd": 11.547,
+        "sigmas": 2.3671,
+        "temp": 276
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.5811,
+          -20.1078
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 249,
+        "100%": 294,
+        "25%": 262.75,
+        "50%": 269,
+        "75%": 282,
+        "anomaly": 29.6667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 271.3333,
+        "name": "PARDOO STATION",
+        "place_type": "CITY",
+        "sd": 16.4154,
+        "sigmas": 1.8072,
+        "temp": 301
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.7483,
+          -20.7278
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 216,
+        "100%": 300,
+        "25%": 246.25,
+        "50%": 260,
+        "75%": 282,
+        "anomaly": -38,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 261,
+        "name": "DAMPIER SALT",
+        "place_type": "CITY",
+        "sd": 23.7727,
+        "sigmas": 1.5985,
+        "temp": 223
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          113.67,
+          -24.8878
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 185,
+        "100%": 288,
+        "25%": 208,
+        "50%": 222,
+        "75%": 240.5,
+        "anomaly": 39.6774,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 226.3226,
+        "name": "CARNARVON AIRPORT",
+        "place_type": "CITY",
+        "sd": 24.9725,
+        "sigmas": 1.5888,
+        "temp": 266
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          113.5319,
+          -25.9261
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 184,
+        "100%": 268,
+        "25%": 199,
+        "50%": 210,
+        "75%": 224,
+        "anomaly": 42.3077,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 212.6923,
+        "name": "DENHAM",
+        "place_type": "CITY",
+        "sd": 23.005,
+        "sigmas": 1.8391,
+        "temp": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          117.8994,
+          -27.4233
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 144,
+        "100%": 265,
+        "25%": 178,
+        "50%": 190,
+        "75%": 198,
+        "anomaly": -44.6,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 189.6,
+        "name": "CUE",
+        "place_type": "CITY",
+        "sd": 29.7293,
+        "sigmas": 1.5002,
+        "temp": 145
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          117.6836,
+          -29.2708
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 127,
+        "100%": 222,
+        "25%": 153,
+        "50%": 170,
+        "75%": 205.75,
+        "anomaly": 65.05,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 175.95,
+        "name": "PAYNES FIND",
+        "place_type": "CITY",
+        "sd": 29.409,
+        "sigmas": 2.2119,
+        "temp": 241
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.7989,
+          -23.4169
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 170,
+        "100%": 210,
+        "25%": 177.5,
+        "50%": 185,
+        "75%": 195,
+        "anomaly": 37.5,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 187.5,
+        "name": "NEWMAN AERO",
+        "place_type": "CITY",
+        "sd": 17.0783,
+        "sigmas": 2.1958,
+        "temp": 225
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          117.7494,
+          -23.1725
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 181,
+        "100%": 280,
+        "25%": 193,
+        "50%": 208,
+        "75%": 220,
+        "anomaly": 38.6,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 216.4,
+        "name": "PARABURDOO AERO",
+        "place_type": "CITY",
+        "sd": 38.5006,
+        "sigmas": 1.0026,
+        "temp": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          117.8425,
+          -28.1156
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 131,
+        "100%": 214,
+        "25%": 149.25,
+        "50%": 157,
+        "75%": 197.75,
+        "anomaly": 50.5,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 169.5,
+        "name": "MOUNT MAGNET AERO",
+        "place_type": "CITY",
+        "sd": 34.6569,
+        "sigmas": 1.4571,
+        "temp": 220
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          115.5142,
+          -28.5367
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 155,
+        "100%": 230,
+        "25%": 172.5,
+        "50%": 182,
+        "75%": 198.5,
+        "anomaly": 58,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 188,
+        "name": "MULLEWA",
+        "place_type": "CITY",
+        "sd": 22.9246,
+        "sigmas": 2.53,
+        "temp": 246
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.7186,
+          -30.8917
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 121,
+        "100%": 245,
+        "25%": 149,
+        "50%": 164,
+        "75%": 185.75,
+        "anomaly": 66.9,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 167.1,
+        "name": "WONGAN HILLS",
+        "place_type": "CITY",
+        "sd": 29.0901,
+        "sigmas": 2.2998,
+        "temp": 234
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          114.165,
+          -27.7119
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 174,
+        "100%": 256,
+        "25%": 202,
+        "50%": 210,
+        "75%": 223,
+        "anomaly": 63.2414,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 211.7586,
+        "name": "KALBARRI",
+        "place_type": "CITY",
+        "sd": 19.3735,
+        "sigmas": 3.2643,
+        "temp": 275
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.0247,
+          -29.2039
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 130,
+        "100%": 160,
+        "25%": 145,
+        "50%": 150,
+        "75%": 152.5,
+        "anomaly": 102.5,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 147.5,
+        "name": "MORAWA AIRPORT",
+        "place_type": "CITY",
+        "sd": 12.5831,
+        "sigmas": 8.1459,
+        "temp": 250
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.6714,
+          -30.2761
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 120,
+        "100%": 150,
+        "25%": 127.5,
+        "50%": 135,
+        "75%": 142.5,
+        "anomaly": 98,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 135,
+        "name": "DALWALLINU",
+        "place_type": "CITY",
+        "sd": 12.9099,
+        "sigmas": 7.591,
+        "temp": 233
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          115.9764,
+          -31.9275
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 141,
+        "100%": 220,
+        "25%": 161.5,
+        "50%": 174,
+        "75%": 190,
+        "anomaly": 53.3226,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 176.6774,
+        "name": "PERTH AIRPORT",
+        "place_type": "CITY",
+        "sd": 21.8729,
+        "sigmas": 2.4378,
+        "temp": 230
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          115.5394,
+          -30.3381
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 120,
+        "100%": 248,
+        "25%": 155.5,
+        "50%": 170,
+        "75%": 201.5,
+        "anomaly": 58.2609,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 175.7391,
+        "name": "BADGINGARRA RESEARCH STN",
+        "place_type": "CITY",
+        "sd": 31.3285,
+        "sigmas": 1.8597,
+        "temp": 234
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.0189,
+          -31.6669
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 138,
+        "100%": 221,
+        "25%": 158.5,
+        "50%": 179,
+        "75%": 199,
+        "anomaly": 48.2222,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 177.7778,
+        "name": "PEARCE RAAF",
+        "place_type": "CITY",
+        "sd": 25.4427,
+        "sigmas": 1.8953,
+        "temp": 226
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          115.9839,
+          -32.0486
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 150,
+        "100%": 193,
+        "25%": 160,
+        "50%": 178,
+        "75%": 185,
+        "anomaly": 61.1111,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 173.8889,
+        "name": "GOSNELLS CITY",
+        "place_type": "CITY",
+        "sd": 16.594,
+        "sigmas": 3.6827,
+        "temp": 235
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.0744,
+          -32.44
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 114,
+        "100%": 204,
+        "25%": 137.5,
+        "50%": 151,
+        "75%": 169.75,
+        "anomaly": 58.6333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 152.3667,
+        "name": "KARNET",
+        "place_type": "CITY",
+        "sd": 24.8797,
+        "sigmas": 2.3567,
+        "temp": 211
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          115.0311,
+          -30.3081
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 157,
+        "100%": 232,
+        "25%": 175,
+        "50%": 185,
+        "75%": 202,
+        "anomaly": 44.0323,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 188.9677,
+        "name": "JURIEN BAY",
+        "place_type": "CITY",
+        "sd": 19.419,
+        "sigmas": 2.2675,
+        "temp": 233
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          115.8794,
+          -32.1011
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 140,
+        "100%": 195,
+        "25%": 153.5,
+        "50%": 165,
+        "75%": 175,
+        "anomaly": 70.3636,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 164.6364,
+        "name": "JANDAKOT AERO",
+        "place_type": "CITY",
+        "sd": 16.9604,
+        "sigmas": 4.1487,
+        "temp": 235
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          115.8642,
+          -31.4628
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 140,
+        "100%": 219,
+        "25%": 156,
+        "50%": 161,
+        "75%": 169,
+        "anomaly": 76,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 169,
+        "name": "GINGIN AERO",
+        "place_type": "CITY",
+        "sd": 29.8915,
+        "sigmas": 2.5425,
+        "temp": 245
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          115.5022,
+          -32.0069
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 145,
+        "100%": 265,
+        "25%": 166,
+        "50%": 169.5,
+        "75%": 179.25,
+        "anomaly": 45.75,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 178.25,
+        "name": "ROTTNEST ISLAND",
+        "place_type": "CITY",
+        "sd": 29.9184,
+        "sigmas": 1.5292,
+        "temp": 224
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          115.7619,
+          -31.9558
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 143,
+        "100%": 183,
+        "25%": 164,
+        "50%": 171,
+        "75%": 176,
+        "anomaly": 66.8571,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 168.1429,
+        "name": "SWANBOURNE",
+        "place_type": "CITY",
+        "sd": 13.8375,
+        "sigmas": 4.8316,
+        "temp": 235
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          115.8728,
+          -31.9192
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 141,
+        "100%": 183,
+        "25%": 155,
+        "50%": 168,
+        "75%": 175,
+        "anomaly": 71.4286,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 164.5714,
+        "name": "PERTH METRO",
+        "place_type": "CITY",
+        "sd": 14.9539,
+        "sigmas": 4.7766,
+        "temp": 236
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.1364,
+          -32.0056
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 108,
+        "100%": 160,
+        "25%": 114.5,
+        "50%": 131,
+        "75%": 147.5,
+        "anomaly": 69,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 132,
+        "name": "BICKLEY",
+        "place_type": "CITY",
+        "sd": 21.2038,
+        "sigmas": 3.2541,
+        "temp": 201
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          115.1358,
+          -34.3728
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 134,
+        "100%": 198,
+        "25%": 154.5,
+        "50%": 169.5,
+        "75%": 175,
+        "anomaly": 52.7667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 166.2333,
+        "name": "CAPE LEEUWIN",
+        "place_type": "CITY",
+        "sd": 14.2531,
+        "sigmas": 3.7021,
+        "temp": 219
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          115.0189,
+          -33.5372
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 138,
+        "100%": 194,
+        "25%": 155.5,
+        "50%": 163,
+        "75%": 179.5,
+        "anomaly": 52.9355,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 166.0645,
+        "name": "CAPE NATURALISTE",
+        "place_type": "CITY",
+        "sd": 16.2643,
+        "sigmas": 3.2547,
+        "temp": 219
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.0594,
+          -32.7103
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 111,
+        "100%": 195,
+        "25%": 135.25,
+        "50%": 148,
+        "75%": 164,
+        "anomaly": 61.7667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 150.2333,
+        "name": "DWELLINGUP",
+        "place_type": "CITY",
+        "sd": 22.7379,
+        "sigmas": 2.7165,
+        "temp": 212
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.8275,
+          -33.6825
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 121,
+        "100%": 200,
+        "25%": 139.75,
+        "50%": 152,
+        "75%": 169,
+        "anomaly": 35.1,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 156.9,
+        "name": "ESPERANCE AERO",
+        "place_type": "CITY",
+        "sd": 27.2782,
+        "sigmas": 1.2867,
+        "temp": 192
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.145,
+          -34.2508
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 106,
+        "100%": 183,
+        "25%": 123.25,
+        "50%": 140.5,
+        "75%": 154,
+        "anomaly": 53.7,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 141.3,
+        "name": "MANJIMUP",
+        "place_type": "CITY",
+        "sd": 22.0628,
+        "sigmas": 2.434,
+        "temp": 195
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          115.4008,
+          -33.6858
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 160,
+        "100%": 160,
+        "25%": 160,
+        "50%": 160,
+        "75%": 160,
+        "anomaly": 37,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 160,
+        "name": "BUSSELTON AERO",
+        "place_type": "CITY",
+        "sd": 0,
+        "sigmas": "Inf",
+        "temp": 197
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.1311,
+          -33.9486
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 150,
+        "100%": 160,
+        "25%": 152.5,
+        "50%": 155,
+        "75%": 157.5,
+        "anomaly": 50,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 155,
+        "name": "BRIDGETOWN",
+        "place_type": "CITY",
+        "sd": 7.0711,
+        "sigmas": 7.0711,
+        "temp": 205
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          117.8022,
+          -34.9414
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 118,
+        "100%": 201,
+        "25%": 142,
+        "50%": 154,
+        "75%": 174,
+        "anomaly": 34.0645,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 156.9355,
+        "name": "ALBANY AIRPORT",
+        "place_type": "CITY",
+        "sd": 21.1076,
+        "sigmas": 1.6139,
+        "temp": 191
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.8925,
+          -33.83
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 126,
+        "100%": 240,
+        "25%": 146.5,
+        "50%": 170,
+        "75%": 182,
+        "anomaly": 40.3871,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 168.6129,
+        "name": "ESPERANCE",
+        "place_type": "CITY",
+        "sd": 28.291,
+        "sigmas": 1.4276,
+        "temp": 209
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          115.6658,
+          -33.7964
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 120,
+        "100%": 195,
+        "25%": 141.5,
+        "50%": 161.5,
+        "75%": 176,
+        "anomaly": 39.2917,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 160.7083,
+        "name": "JARRAHWOOD",
+        "place_type": "CITY",
+        "sd": 21.4891,
+        "sigmas": 1.8284,
+        "temp": 200
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.9944,
+          -34.4417
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 120,
+        "100%": 189,
+        "25%": 145,
+        "50%": 160,
+        "75%": 167.5,
+        "anomaly": -26.6364,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 156.6364,
+        "name": "FRANKLAND VINEYARDS",
+        "place_type": "CITY",
+        "sd": 21.1956,
+        "sigmas": 1.2567,
+        "temp": 130
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.0308,
+          -34.8361
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 116,
+        "100%": 200,
+        "25%": 150.75,
+        "50%": 156.5,
+        "75%": 161.5,
+        "anomaly": 38.4286,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 158.5714,
+        "name": "WINDY HARBOUR",
+        "place_type": "CITY",
+        "sd": 20.3912,
+        "sigmas": 1.8846,
+        "temp": 197
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.1283,
+          -33.9306
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 145,
+        "100%": 180,
+        "25%": 151,
+        "50%": 154,
+        "75%": 164,
+        "anomaly": 60.2,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 158.8,
+        "name": "HOPETOUN NORTH",
+        "place_type": "CITY",
+        "sd": 13.7004,
+        "sigmas": 4.394,
+        "temp": 219
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          117.0106,
+          -34.5714
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 112,
+        "100%": 150,
+        "25%": 125,
+        "50%": 138,
+        "75%": 144,
+        "anomaly": 39.6667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 133.3333,
+        "name": "ROCKY GULLY",
+        "place_type": "CITY",
+        "sd": 19.4251,
+        "sigmas": 2.042,
+        "temp": 173
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          115.6447,
+          -33.3567
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 144,
+        "100%": 170,
+        "25%": 164,
+        "50%": 164,
+        "75%": 170,
+        "anomaly": 42.6,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 162.4,
+        "name": "BUNBURY",
+        "place_type": "CITY",
+        "sd": 10.7145,
+        "sigmas": 3.9759,
+        "temp": 205
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.3367,
+          -34.5683
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 110,
+        "100%": 160,
+        "25%": 132.5,
+        "50%": 140,
+        "75%": 145,
+        "anomaly": 37.5,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 137.5,
+        "name": "SHANNON",
+        "place_type": "CITY",
+        "sd": 20.6155,
+        "sigmas": 1.819,
+        "temp": 175
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          118.2789,
+          -31.4756
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 115,
+        "100%": 238,
+        "25%": 138,
+        "50%": 157,
+        "75%": 176.5,
+        "anomaly": 59.1613,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 160.8387,
+        "name": "MERREDIN",
+        "place_type": "CITY",
+        "sd": 29.6323,
+        "sigmas": 1.9965,
+        "temp": 220
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.6586,
+          -31.6508
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 134,
+        "100%": 217,
+        "25%": 150,
+        "50%": 160,
+        "75%": 186,
+        "anomaly": 55.7241,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 169.2759,
+        "name": "NORTHAM",
+        "place_type": "CITY",
+        "sd": 24.5137,
+        "sigmas": 2.2732,
+        "temp": 225
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.6833,
+          -31.75
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 144,
+        "100%": 200,
+        "25%": 152.5,
+        "50%": 161,
+        "75%": 196,
+        "anomaly": 28.2857,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 171.7143,
+        "name": "MURESK AGRIC.COLLEGE",
+        "place_type": "CITY",
+        "sd": 24.5066,
+        "sigmas": 1.1542,
+        "temp": 200
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          117.2217,
+          -31.6219
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 120,
+        "100%": 145,
+        "25%": 124.5,
+        "50%": 133.5,
+        "75%": 142,
+        "anomaly": 99,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 133,
+        "name": "CUNDERDIN AIRFIELD",
+        "place_type": "CITY",
+        "sd": 11.9164,
+        "sigmas": 8.3079,
+        "temp": 232
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.765,
+          -31.8997
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 124,
+        "100%": 165,
+        "25%": 132,
+        "50%": 146,
+        "75%": 146,
+        "anomaly": 77.4,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 142.6,
+        "name": "YORK",
+        "place_type": "CITY",
+        "sd": 15.678,
+        "sigmas": 4.9369,
+        "temp": 220
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.9247,
+          -32.1083
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 126,
+        "100%": 222,
+        "25%": 144.5,
+        "50%": 154,
+        "75%": 180,
+        "anomaly": 56.5161,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 163.4839,
+        "name": "BEVERLEY",
+        "place_type": "CITY",
+        "sd": 26.0331,
+        "sigmas": 2.1709,
+        "temp": 220
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          117.0072,
+          -32.3725
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 130,
+        "100%": 206,
+        "25%": 140,
+        "50%": 153,
+        "75%": 184.75,
+        "anomaly": 39.625,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 160.375,
+        "name": "BROOKTON",
+        "place_type": "CITY",
+        "sd": 24.6556,
+        "sigmas": 1.6071,
+        "temp": 200
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          118.8983,
+          -32.4419
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 123,
+        "100%": 215,
+        "25%": 140,
+        "50%": 154,
+        "75%": 175.5,
+        "anomaly": 61.2593,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 158.7407,
+        "name": "HYDEN",
+        "place_type": "CITY",
+        "sd": 26.6813,
+        "sigmas": 2.296,
+        "temp": 220
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          117.3403,
+          -33.3075
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 117,
+        "100%": 200,
+        "25%": 133,
+        "50%": 144,
+        "75%": 169.5,
+        "anomaly": 49.4667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 150.5333,
+        "name": "WAGIN",
+        "place_type": "CITY",
+        "sd": 23.0782,
+        "sigmas": 2.1434,
+        "temp": 200
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          118.84,
+          -33.1131
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 111,
+        "100%": 154,
+        "25%": 117,
+        "50%": 130,
+        "75%": 145,
+        "anomaly": 61.6,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 131.4,
+        "name": "NEWDEGATE RESEARCH STATION",
+        "place_type": "CITY",
+        "sd": 18.1742,
+        "sigmas": 3.3894,
+        "temp": 193
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.1092,
+          -33.8878
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 120,
+        "100%": 159,
+        "25%": 133,
+        "50%": 139,
+        "75%": 145.5,
+        "anomaly": 46.7143,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 139.2857,
+        "name": "JACUP",
+        "place_type": "CITY",
+        "sd": 12.9578,
+        "sigmas": 3.6051,
+        "temp": 186
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          118.4647,
+          -33.1006
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 120,
+        "100%": 140,
+        "25%": 120,
+        "50%": 125,
+        "75%": 132.5,
+        "anomaly": 74.5,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 127.5,
+        "name": "LAKE GRACE",
+        "place_type": "CITY",
+        "sd": 9.5743,
+        "sigmas": 7.7813,
+        "temp": 202
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.6706,
+          -32.6722
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 130,
+        "100%": 140,
+        "25%": 132.5,
+        "50%": 135,
+        "75%": 137.5,
+        "anomaly": 63,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 135,
+        "name": "WANDERING",
+        "place_type": "CITY",
+        "sd": 7.0711,
+        "sigmas": 8.9095,
+        "temp": 198
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          126.5889,
+          -31.7219
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 147,
+        "100%": 233,
+        "25%": 161,
+        "50%": 175,
+        "75%": 204,
+        "anomaly": 48,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 185,
+        "name": "MOONERA",
+        "place_type": "CITY",
+        "sd": 43.8634,
+        "sigmas": 1.0943,
+        "temp": 233
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.6239,
+          -32.9869
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 108,
+        "100%": 221,
+        "25%": 137,
+        "50%": 153,
+        "75%": 170,
+        "anomaly": 42.12,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 155.88,
+        "name": "SALMON GUMS RES.STN.",
+        "place_type": "CITY",
+        "sd": 28.5092,
+        "sigmas": 1.4774,
+        "temp": 198
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.7031,
+          -27.8386
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 139,
+        "100%": 162,
+        "25%": 148,
+        "50%": 157,
+        "75%": 159.5,
+        "anomaly": 49.3333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 152.6667,
+        "name": "LEINSTER AERO",
+        "place_type": "CITY",
+        "sd": 12.0968,
+        "sigmas": 4.0782,
+        "temp": 202
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.3564,
+          -31.2353
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 108,
+        "100%": 152,
+        "25%": 122.25,
+        "50%": 138,
+        "75%": 149.75,
+        "anomaly": 80,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 134,
+        "name": "SOUTHERN CROSS AIRFIELD",
+        "place_type": "CITY",
+        "sd": 20.6074,
+        "sigmas": 3.8821,
+        "temp": 214
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          131.0252,
+          -13.0545
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 310,
+        "100%": 322,
+        "25%": 315,
+        "50%": 320,
+        "75%": 321,
+        "anomaly": -22.3333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 317.3333,
+        "name": "BATCHELOR AERO",
+        "place_type": "CITY",
+        "sd": 6.4291,
+        "sigmas": 3.4738,
+        "temp": 295
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          132.9791,
+          -11.0468
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 270,
+        "100%": 280,
+        "25%": 272.5,
+        "50%": 275,
+        "75%": 277.5,
+        "anomaly": -11,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 275,
+        "name": "MCCLUER ISLAND",
+        "place_type": "CITY",
+        "sd": 7.0711,
+        "sigmas": 1.5556,
+        "temp": 264
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          136.8203,
+          -12.2741
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 261,
+        "100%": 305,
+        "25%": 272.25,
+        "50%": 276,
+        "75%": 284.75,
+        "anomaly": -14.8333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 278.8333,
+        "name": "GOVE AIRPORT",
+        "place_type": "CITY",
+        "sd": 12.0745,
+        "sigmas": 1.2285,
+        "temp": 264
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          136.4631,
+          -13.9747
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 300,
+        "100%": 310,
+        "25%": 302.5,
+        "50%": 305,
+        "75%": 307.5,
+        "anomaly": -46,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 305,
+        "name": "GROOTE EYLANDT AIRPORT AWS",
+        "place_type": "CITY",
+        "sd": 7.0711,
+        "sigmas": 6.5054,
+        "temp": 259
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          136.3041,
+          -16.0757
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 297,
+        "100%": 355,
+        "25%": 305,
+        "50%": 306,
+        "75%": 323,
+        "anomaly": -40.2,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 317.2,
+        "name": "BORROLOOLA",
+        "place_type": "CITY",
+        "sd": 23.156,
+        "sigmas": 1.7361,
+        "temp": 277
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          131.0145,
+          -16.403
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 221,
+        "100%": 343,
+        "25%": 265,
+        "50%": 284,
+        "75%": 302,
+        "anomaly": -28.3704,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 282.3704,
+        "name": "VICTORIA RIVER DOWNS",
+        "place_type": "CITY",
+        "sd": 27.6213,
+        "sigmas": 1.0271,
+        "temp": 254
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          131.1872,
+          -13.8345
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 316,
+        "100%": 366,
+        "25%": 317.5,
+        "50%": 319.5,
+        "75%": 321.5,
+        "anomaly": -43.6667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 326.6667,
+        "name": "DOUGLAS RIVER",
+        "place_type": "CITY",
+        "sd": 19.3873,
+        "sigmas": 2.2523,
+        "temp": 283
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          132.3826,
+          -14.5229
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 264,
+        "100%": 336,
+        "25%": 288,
+        "50%": 301,
+        "75%": 312,
+        "anomaly": -29.7692,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 300.7692,
+        "name": "TINDAL RAAF",
+        "place_type": "CITY",
+        "sd": 19.9548,
+        "sigmas": 1.4918,
+        "temp": 271
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          131.9182,
+          -15.7442
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 300,
+        "100%": 340,
+        "25%": 307.5,
+        "50%": 310,
+        "75%": 317.5,
+        "anomaly": -58,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 315,
+        "name": "DELAMERE WEAPONS RANGE",
+        "place_type": "CITY",
+        "sd": 17.3205,
+        "sigmas": 3.3486,
+        "temp": 257
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          133.5407,
+          -17.5521
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 210,
+        "100%": 340,
+        "25%": 257,
+        "50%": 278,
+        "75%": 296.5,
+        "anomaly": -48,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 276,
+        "name": "ELLIOTT",
+        "place_type": "CITY",
+        "sd": 34.8696,
+        "sigmas": 1.3766,
+        "temp": 228
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          131.7571,
+          -25.3139
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 91,
+        "100%": 240,
+        "25%": 165.5,
+        "50%": 193,
+        "75%": 214.5,
+        "anomaly": 37.4,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 189.6,
+        "name": "CURTIN SPRINGS",
+        "place_type": "CITY",
+        "sd": 33.6028,
+        "sigmas": 1.113,
+        "temp": 227
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          133.6377,
+          -22.4518
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 204,
+        "100%": 258,
+        "25%": 229.75,
+        "50%": 241.5,
+        "75%": 252.5,
+        "anomaly": -42.8333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 237.8333,
+        "name": "TERRITORY GRAPE FARM",
+        "place_type": "CITY",
+        "sd": 20.074,
+        "sigmas": 2.1338,
+        "temp": 195
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          130.0148,
+          -20.1824
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 253,
+        "100%": 301,
+        "25%": 258.25,
+        "50%": 272,
+        "75%": 288.25,
+        "anomaly": -43.5,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 274.5,
+        "name": "RABBIT FLAT",
+        "place_type": "CITY",
+        "sd": 22.0983,
+        "sigmas": 1.9685,
+        "temp": 231
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          137.1505,
+          -32.1232
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 131,
+        "100%": 228,
+        "25%": 162,
+        "50%": 190,
+        "75%": 200,
+        "anomaly": -49.3333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 180.3333,
+        "name": "YUDNAPINNA",
+        "place_type": "CITY",
+        "sd": 31.1448,
+        "sigmas": 1.584,
+        "temp": 131
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          134.7222,
+          -29.0347
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 147,
+        "100%": 205,
+        "25%": 159.5,
+        "50%": 175,
+        "75%": 185.5,
+        "anomaly": -23.8571,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 173.8571,
+        "name": "COOBER PEDY AIRPORT",
+        "place_type": "CITY",
+        "sd": 20.3013,
+        "sigmas": 1.1752,
+        "temp": 150
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          136.8772,
+          -30.4829
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 180,
+        "100%": 190,
+        "25%": 185,
+        "50%": 190,
+        "75%": 190,
+        "anomaly": -30.6667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 186.6667,
+        "name": "ROXBY DOWNS (OLYMPIC DAM AEROD",
+        "place_type": "CITY",
+        "sd": 5.7735,
+        "sigmas": 5.3116,
+        "temp": 156
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          134.5786,
+          -30.7051
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 172,
+        "100%": 180,
+        "25%": 174,
+        "50%": 176,
+        "75%": 178,
+        "anomaly": -17,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 176,
+        "name": "TARCOOLA AERO",
+        "place_type": "CITY",
+        "sd": 5.6569,
+        "sigmas": 3.0052,
+        "temp": 159
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.2471,
+          -26.0702
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 170,
+        "100%": 285,
+        "25%": 179,
+        "50%": 210,
+        "75%": 249.75,
+        "anomaly": 66.25,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 218.75,
+        "name": "MOUNT DARE",
+        "place_type": "CITY",
+        "sd": 53.1876,
+        "sigmas": 1.2456,
+        "temp": 285
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          138.0684,
+          -29.6587
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 200,
+        "100%": 270,
+        "25%": 217.5,
+        "50%": 235,
+        "75%": 252.5,
+        "anomaly": -59,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 235,
+        "name": "MARREE AERO",
+        "place_type": "CITY",
+        "sd": 49.4975,
+        "sigmas": 1.192,
+        "temp": 176
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          133.6976,
+          -32.1297
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 127,
+        "100%": 235,
+        "25%": 149,
+        "50%": 163,
+        "75%": 188,
+        "anomaly": -31.9032,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 172.9032,
+        "name": "CEDUNA AMO",
+        "place_type": "CITY",
+        "sd": 29.7471,
+        "sigmas": 1.0725,
+        "temp": 141
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          130.4136,
+          -30.6143
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 144,
+        "100%": 255,
+        "25%": 162,
+        "50%": 187.5,
+        "75%": 206.25,
+        "anomaly": -31.9286,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 186.9286,
+        "name": "COOK",
+        "place_type": "CITY",
+        "sd": 28.6136,
+        "sigmas": 1.1159,
+        "temp": 155
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.1515,
+          -32.8427
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 149,
+        "100%": 199,
+        "25%": 152,
+        "50%": 155,
+        "75%": 177,
+        "anomaly": -27.6667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 167.6667,
+        "name": "MINNIPA DPI",
+        "place_type": "CITY",
+        "sd": 27.3008,
+        "sigmas": 1.0134,
+        "temp": 140
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          140.1251,
+          -33.7622
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 175,
+        "100%": 177,
+        "25%": 175.5,
+        "50%": 176,
+        "75%": 176.5,
+        "anomaly": -21,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 176,
+        "name": "GLUEPOT RESERVE (GLUEPOT)",
+        "place_type": "CITY",
+        "sd": 1.4142,
+        "sigmas": 14.8492,
+        "temp": 155
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.5645,
+          -32.5707
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 160,
+        "100%": 170,
+        "25%": 162.5,
+        "50%": 165,
+        "75%": 167.5,
+        "anomaly": -20,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 165,
+        "name": "YUNTA AIRSTRIP",
+        "place_type": "CITY",
+        "sd": 7.0711,
+        "sigmas": 2.8284,
+        "temp": 145
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          138.393,
+          -33.359
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 111,
+        "100%": 193,
+        "25%": 129,
+        "50%": 143,
+        "75%": 168.5,
+        "anomaly": 44.1429,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 148.8571,
+        "name": "GEORGETOWN",
+        "place_type": "CITY",
+        "sd": 30.9431,
+        "sigmas": 1.4266,
+        "temp": 193
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          138.2182,
+          -33.7676
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 140,
+        "100%": 140,
+        "25%": 140,
+        "50%": 140,
+        "75%": 140,
+        "anomaly": 19,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 140,
+        "name": "SNOWTOWN (RAYVILLE PARK)",
+        "place_type": "CITY",
+        "sd": 0,
+        "sigmas": "Inf",
+        "temp": 159
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          138.8071,
+          -34.9482
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 62,
+        "100%": 173,
+        "25%": 93.5,
+        "50%": 103.5,
+        "75%": 121.5,
+        "anomaly": 47.7,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 110.3,
+        "name": "LENSWOOD RESEARCH CENTRE",
+        "place_type": "CITY",
+        "sd": 28.3332,
+        "sigmas": 1.6835,
+        "temp": 158
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          140.2432,
+          -34.6345
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 95,
+        "100%": 215,
+        "25%": 134,
+        "50%": 147,
+        "75%": 170,
+        "anomaly": 48.72,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 148.28,
+        "name": "CALIPH",
+        "place_type": "CITY",
+        "sd": 29.1155,
+        "sigmas": 1.6733,
+        "temp": 197
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          140.3664,
+          -36.9731
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 80,
+        "100%": 178,
+        "25%": 128,
+        "50%": 144,
+        "75%": 155,
+        "anomaly": -61.7059,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 141.7059,
+        "name": "LUCINDALE POST OFFICE",
+        "place_type": "CITY",
+        "sd": 23.669,
+        "sigmas": 2.607,
+        "temp": 80
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          141.9208,
+          -12.6778
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 290,
+        "100%": 313,
+        "25%": 299.75,
+        "50%": 302.5,
+        "75%": 307.25,
+        "anomaly": 15,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 303,
+        "name": "WEIPA AERO",
+        "place_type": "CITY",
+        "sd": 7.2899,
+        "sigmas": 2.0576,
+        "temp": 318
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          143.0686,
+          -10.0511
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 270,
+        "100%": 290,
+        "25%": 277.5,
+        "50%": 285,
+        "75%": 290,
+        "anomaly": 27.5,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 282.5,
+        "name": "COCONUT ISLAND",
+        "place_type": "CITY",
+        "sd": 9.5743,
+        "sigmas": 2.8723,
+        "temp": 310
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          142.29,
+          -10.5844
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 278,
+        "100%": 297,
+        "25%": 279,
+        "50%": 283,
+        "75%": 285.5,
+        "anomaly": 16.8333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 284.1667,
+        "name": "HORN ISLAND",
+        "place_type": "CITY",
+        "sd": 7.0545,
+        "sigmas": 2.3862,
+        "temp": 301
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          142.2447,
+          -18.2044
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 205,
+        "100%": 331,
+        "25%": 265.5,
+        "50%": 292,
+        "75%": 309,
+        "anomaly": 35.4516,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 284.5484,
+        "name": "CROYDON TOWNSHIP",
+        "place_type": "CITY",
+        "sd": 33.0321,
+        "sigmas": 1.0732,
+        "temp": 320
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          140.505,
+          -20.6664
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 255,
+        "100%": 295,
+        "25%": 267,
+        "50%": 279.5,
+        "75%": 290.5,
+        "anomaly": -47.6667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 277.6667,
+        "name": "CLONCURRY AIRPORT",
+        "place_type": "CITY",
+        "sd": 16.1452,
+        "sigmas": 2.9524,
+        "temp": 230
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          143.1167,
+          -20.7017
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 290,
+        "100%": 310,
+        "25%": 295,
+        "50%": 300,
+        "75%": 305,
+        "anomaly": -68,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 300,
+        "name": "RICHMOND AIRPORT",
+        "place_type": "CITY",
+        "sd": 10,
+        "sigmas": 6.8,
+        "temp": 232
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          145.7833,
+          -16.9333
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 262,
+        "100%": 278,
+        "25%": 263,
+        "50%": 264,
+        "75%": 271,
+        "anomaly": -25,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 268,
+        "name": "CAIRNS POST OFFICE",
+        "place_type": "CITY",
+        "sd": 8.7178,
+        "sigmas": 2.8677,
+        "temp": 243
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          147.4075,
+          -19.5775
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 190,
+        "100%": 293,
+        "25%": 241.5,
+        "50%": 252,
+        "75%": 263.25,
+        "anomaly": -57.1667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 247.1667,
+        "name": "BURDEKIN SHIRE COUNCIL",
+        "place_type": "CITY",
+        "sd": 30.0963,
+        "sigmas": 1.8995,
+        "temp": 190
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          148.8881,
+          -20.0564
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 181,
+        "100%": 250,
+        "25%": 213.5,
+        "50%": 227,
+        "75%": 230,
+        "anomaly": -40.7,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 221.7,
+        "name": "HAYMAN ISLAND RESORT",
+        "place_type": "CITY",
+        "sd": 18.8624,
+        "sigmas": 2.1577,
+        "temp": 181
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          147.4833,
+          -19.4569
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 230,
+        "100%": 260,
+        "25%": 240,
+        "50%": 250,
+        "75%": 255,
+        "anomaly": -20.6667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 246.6667,
+        "name": "ALVA BEACH",
+        "place_type": "CITY",
+        "sd": 15.2753,
+        "sigmas": 1.353,
+        "temp": 226
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          146.5364,
+          -19.4167
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 220,
+        "100%": 230,
+        "25%": 220,
+        "50%": 220,
+        "75%": 225,
+        "anomaly": -18.3333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 223.3333,
+        "name": "WOOLSHED",
+        "place_type": "CITY",
+        "sd": 5.7735,
+        "sigmas": 3.1754,
+        "temp": 205
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          146.2708,
+          -20.0464
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 207,
+        "100%": 281,
+        "25%": 244.5,
+        "50%": 258.5,
+        "75%": 262,
+        "anomaly": -32.625,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 252.625,
+        "name": "CHARTERS TOWERS AIRPORT",
+        "place_type": "CITY",
+        "sd": 22.045,
+        "sigmas": 1.4799,
+        "temp": 220
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          145.4672,
+          -24.4214
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 140,
+        "100%": 270,
+        "25%": 198,
+        "50%": 220,
+        "75%": 239.5,
+        "anomaly": 38.0645,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 215.9355,
+        "name": "BLACKALL TOWNSHIP",
+        "place_type": "CITY",
+        "sd": 32.5944,
+        "sigmas": 1.1678,
+        "temp": 254
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2763,
+          -23.5293
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 199,
+        "100%": 230,
+        "25%": 199.75,
+        "50%": 215,
+        "75%": 230,
+        "anomaly": 18.25,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 214.75,
+        "name": "RUNDLE ISLAND",
+        "place_type": "CITY",
+        "sd": 17.6139,
+        "sigmas": 1.0361,
+        "temp": 233
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          152.3375,
+          -27.5436
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 135,
+        "100%": 238,
+        "25%": 185,
+        "50%": 206,
+        "75%": 216.5,
+        "anomaly": -27.9032,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 198.9032,
+        "name": "UNIVERSITY OF QUEENSLAND GATTO",
+        "place_type": "CITY",
+        "sd": 26.2429,
+        "sigmas": 1.0633,
+        "temp": 171
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          153.5456,
+          -27.4361
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 211,
+        "100%": 242,
+        "25%": 215.5,
+        "50%": 222.5,
+        "75%": 231.5,
+        "anomaly": -34.5,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 224.5,
+        "name": "POINT LOOKOUT",
+        "place_type": "CITY",
+        "sd": 13.626,
+        "sigmas": 2.5319,
+        "temp": 190
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          152.9619,
+          -26.9586
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 220,
+        "100%": 240,
+        "25%": 225,
+        "50%": 230,
+        "75%": 235,
+        "anomaly": -34,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 230,
+        "name": "BEERBURRUM FOREST STATION",
+        "place_type": "CITY",
+        "sd": 14.1421,
+        "sigmas": 2.4042,
+        "temp": 196
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          152.8817,
+          -25.322
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 210,
+        "100%": 210,
+        "25%": 210,
+        "50%": 210,
+        "75%": 210,
+        "anomaly": -3,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 210,
+        "name": "HERVEY BAY AIRPORT",
+        "place_type": "CITY",
+        "sd": 0,
+        "sigmas": "Inf",
+        "temp": 207
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          152.8719,
+          -26.715
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 205,
+        "100%": 260,
+        "25%": 218.75,
+        "50%": 232.5,
+        "75%": 246.25,
+        "anomaly": -54.5,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 232.5,
+        "name": "BAROON POCKET DAM",
+        "place_type": "CITY",
+        "sd": 38.8909,
+        "sigmas": 1.4014,
+        "temp": 178
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.1681,
+          -28.8544
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 112,
+        "100%": 238,
+        "25%": 163,
+        "50%": 191,
+        "75%": 210,
+        "anomaly": -40.8846,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 184.8846,
+        "name": "TEXAS POST OFFICE",
+        "place_type": "CITY",
+        "sd": 33.9768,
+        "sigmas": 1.2033,
+        "temp": 144
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.7413,
+          -27.4034
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 128,
+        "100%": 213,
+        "25%": 166.75,
+        "50%": 185,
+        "75%": 198,
+        "anomaly": -32.4583,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 178.4583,
+        "name": "OAKEY AERO",
+        "place_type": "CITY",
+        "sd": 24.3507,
+        "sigmas": 1.333,
+        "temp": 146
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2634,
+          -27.1605
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 160,
+        "100%": 230,
+        "25%": 178,
+        "50%": 206,
+        "75%": 210,
+        "anomaly": -46.4444,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 197.4444,
+        "name": "DALBY AIRPORT",
+        "place_type": "CITY",
+        "sd": 23.6279,
+        "sigmas": 1.9657,
+        "temp": 151
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          152.1003,
+          -28.2061
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 150,
+        "100%": 205,
+        "25%": 176,
+        "50%": 189,
+        "75%": 201,
+        "anomaly": -42.4286,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 185.4286,
+        "name": "WARWICK",
+        "place_type": "CITY",
+        "sd": 20.0155,
+        "sigmas": 2.1198,
+        "temp": 143
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.9134,
+          -27.5425
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 140,
+        "100%": 170,
+        "25%": 153,
+        "50%": 168,
+        "75%": 169,
+        "anomaly": -35,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 160,
+        "name": "TOOWOOMBA AIRPORT",
+        "place_type": "CITY",
+        "sd": 13.1719,
+        "sigmas": 2.6572,
+        "temp": 125
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          150.1819,
+          -26.6569
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 170,
+        "100%": 230,
+        "25%": 195,
+        "50%": 220,
+        "75%": 225,
+        "anomaly": -49.6667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 206.6667,
+        "name": "MILES CONSTANCE STREET",
+        "place_type": "CITY",
+        "sd": 32.1455,
+        "sigmas": 1.5451,
+        "temp": 157
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          147.9777,
+          -26.4888
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 121,
+        "100%": 235,
+        "25%": 162,
+        "50%": 190,
+        "75%": 200,
+        "anomaly": 47.4138,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 181.5862,
+        "name": "MITCHELL POST OFFICE",
+        "place_type": "CITY",
+        "sd": 31.1924,
+        "sigmas": 1.52,
+        "temp": 229
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          149.0703,
+          -27.159
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 128,
+        "100%": 240,
+        "25%": 174.5,
+        "50%": 196,
+        "75%": 216.25,
+        "anomaly": -34.5714,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 192.5714,
+        "name": "SURAT",
+        "place_type": "CITY",
+        "sd": 29.8148,
+        "sigmas": 1.1595,
+        "temp": 158
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          148.7778,
+          -26.5442
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 149,
+        "100%": 235,
+        "25%": 182.5,
+        "50%": 210,
+        "75%": 218.5,
+        "anomaly": -43.4286,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 199.4286,
+        "name": "ROMA AIRPORT",
+        "place_type": "CITY",
+        "sd": 29.6021,
+        "sigmas": 1.4671,
+        "temp": 156
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          148.5942,
+          -28.0489
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 166,
+        "100%": 231,
+        "25%": 206.5,
+        "50%": 221,
+        "75%": 224.25,
+        "anomaly": -57.75,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 209.75,
+        "name": "ST GEORGE AIRPORT",
+        "place_type": "CITY",
+        "sd": 29.5564,
+        "sigmas": 1.9539,
+        "temp": 152
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          142.0567,
+          -29.4448
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 200,
+        "100%": 250,
+        "25%": 212.5,
+        "50%": 225,
+        "75%": 237.5,
+        "anomaly": -70,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 225,
+        "name": "TIBOOBURRA AIRPORT",
+        "place_type": "CITY",
+        "sd": 35.3553,
+        "sigmas": 1.9799,
+        "temp": 155
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          142.4173,
+          -32.3937
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 127,
+        "100%": 226,
+        "25%": 146,
+        "50%": 163,
+        "75%": 192.5,
+        "anomaly": -30.4583,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 168.4583,
+        "name": "MENINDEE POST OFFICE",
+        "place_type": "CITY",
+        "sd": 28.9962,
+        "sigmas": 1.0504,
+        "temp": 138
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          148.5818,
+          -29.5407
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 114,
+        "100%": 236,
+        "25%": 140,
+        "50%": 171,
+        "75%": 190,
+        "anomaly": 50.1379,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 169.8621,
+        "name": "COLLARENEBRI (ALBERT ST)",
+        "place_type": "CITY",
+        "sd": 35.2995,
+        "sigmas": 1.4204,
+        "temp": 220
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          147.1524,
+          -33.0818
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 73,
+        "100%": 197,
+        "25%": 124.5,
+        "50%": 144,
+        "75%": 170,
+        "anomaly": -69.375,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 142.375,
+        "name": "CONDOBOLIN RETIREMENT VILLAGE",
+        "place_type": "CITY",
+        "sd": 34.3496,
+        "sigmas": 2.0197,
+        "temp": 73
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          147.869,
+          -30.9252
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 110,
+        "100%": 200,
+        "25%": 141,
+        "50%": 172,
+        "75%": 186,
+        "anomaly": -50.6667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 160.6667,
+        "name": "QUAMBONE STATION",
+        "place_type": "CITY",
+        "sd": 46.0579,
+        "sigmas": 1.1001,
+        "temp": 110
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          149.8458,
+          -29.4914
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 142,
+        "100%": 220,
+        "25%": 148.5,
+        "50%": 179.5,
+        "75%": 196.25,
+        "anomaly": -31.8333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 176.8333,
+        "name": "MOREE AERO",
+        "place_type": "CITY",
+        "sd": 31.8209,
+        "sigmas": 1.0004,
+        "temp": 145
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          150.6792,
+          -31.5086
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 80,
+        "100%": 223,
+        "25%": 136,
+        "50%": 158.5,
+        "75%": 170.25,
+        "anomaly": 36.4333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 153.5667,
+        "name": "QUIRINDI POST OFFICE",
+        "place_type": "CITY",
+        "sd": 29.8833,
+        "sigmas": 1.2192,
+        "temp": 190
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.6714,
+          -30.2204
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 17,
+        "100%": 117,
+        "25%": 64,
+        "50%": 111,
+        "75%": 114,
+        "anomaly": -64.6667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 81.6667,
+        "name": "GUYRA POST OFFICE",
+        "place_type": "CITY",
+        "sd": 56.0833,
+        "sigmas": 1.153,
+        "temp": 17
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.6697,
+          -30.5264
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 108,
+        "100%": 146,
+        "25%": 132.75,
+        "50%": 141,
+        "75%": 142.25,
+        "anomaly": -29,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 134,
+        "name": "ARMIDALE (TREE GROUP NURSERY)",
+        "place_type": "CITY",
+        "sd": 17.4929,
+        "sigmas": 1.6578,
+        "temp": 105
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.6158,
+          -30.5273
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 131,
+        "100%": 143,
+        "25%": 136,
+        "50%": 140,
+        "75%": 142,
+        "anomaly": -50.4,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 138.4,
+        "name": "ARMIDALE AIRPORT AWS",
+        "place_type": "CITY",
+        "sd": 4.9295,
+        "sigmas": 10.2242,
+        "temp": 88
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.1121,
+          -29.7796
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 139,
+        "100%": 192,
+        "25%": 150.75,
+        "50%": 163,
+        "75%": 177.5,
+        "anomaly": -35.3333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 164.3333,
+        "name": "INVERELL (RAGLAN ST)",
+        "place_type": "CITY",
+        "sd": 20.1561,
+        "sigmas": 1.753,
+        "temp": 129
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.694,
+          -29.678
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 133,
+        "100%": 149,
+        "25%": 139.75,
+        "50%": 144.5,
+        "75%": 147.5,
+        "anomaly": -43.75,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 142.75,
+        "name": "GLEN INNES AIRPORT AWS",
+        "place_type": "CITY",
+        "sd": 7.1356,
+        "sigmas": 6.1312,
+        "temp": 99
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          152.512,
+          -31.8896
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 190,
+        "100%": 210,
+        "25%": 195,
+        "50%": 200,
+        "75%": 205,
+        "anomaly": -28,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 200,
+        "name": "TAREE AIRPORT AWS",
+        "place_type": "CITY",
+        "sd": 10,
+        "sigmas": 2.8,
+        "temp": 172
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          150.229,
+          -32.7244
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 68,
+        "100%": 121,
+        "25%": 78,
+        "50%": 96,
+        "75%": 99.75,
+        "anomaly": -30,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 92,
+        "name": "NULLO MOUNTAIN AWS",
+        "place_type": "CITY",
+        "sd": 16.4181,
+        "sigmas": 1.8272,
+        "temp": 62
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          150.0227,
+          -33.8199
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 44,
+        "100%": 133,
+        "25%": 66.5,
+        "50%": 89,
+        "75%": 111,
+        "anomaly": -44.6667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 88.6667,
+        "name": "OBERON (JENOLAN CAVES)",
+        "place_type": "CITY",
+        "sd": 44.5009,
+        "sigmas": 1.0037,
+        "temp": 44
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          150.3087,
+          -33.7122
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 43,
+        "100%": 122,
+        "25%": 78,
+        "50%": 90.5,
+        "75%": 103.75,
+        "anomaly": -24.9286,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 89.9286,
+        "name": "KATOOMBA (MURRI ST)",
+        "place_type": "CITY",
+        "sd": 21.1484,
+        "sigmas": 1.1787,
+        "temp": 65
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          149.0828,
+          -33.3211
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 42,
+        "100%": 141,
+        "25%": 76,
+        "50%": 95,
+        "75%": 104,
+        "anomaly": -45.32,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 93.32,
+        "name": "ORANGE AGRICULTURAL INSTITUTE",
+        "place_type": "CITY",
+        "sd": 24.0844,
+        "sigmas": 1.8817,
+        "temp": 48
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          149.654,
+          -33.412
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 100,
+        "100%": 166,
+        "25%": 105,
+        "50%": 117,
+        "75%": 134,
+        "anomaly": -45.8889,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 122.8889,
+        "name": "BATHURST AIRPORT AWS",
+        "place_type": "CITY",
+        "sd": 22.0196,
+        "sigmas": 2.084,
+        "temp": 77
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          150.2741,
+          -33.6185
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 69,
+        "100%": 129,
+        "25%": 87.25,
+        "50%": 96.5,
+        "75%": 108.75,
+        "anomaly": -50.3,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 97.3,
+        "name": "MOUNT BOYCE AWS",
+        "place_type": "CITY",
+        "sd": 17.864,
+        "sigmas": 2.8157,
+        "temp": 47
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          149.127,
+          -33.3813
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 88,
+        "100%": 135,
+        "25%": 98,
+        "50%": 100,
+        "75%": 118,
+        "anomaly": -64.8,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 107.8,
+        "name": "ORANGE AIRPORT AWS",
+        "place_type": "CITY",
+        "sd": 18.6601,
+        "sigmas": 3.4726,
+        "temp": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          149.72,
+          -31.8231
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 90,
+        "100%": 183,
+        "25%": 130.5,
+        "50%": 152,
+        "75%": 165.75,
+        "anomaly": -54.25,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 144.25,
+        "name": "COOLAH (BINNIA ST)",
+        "place_type": "CITY",
+        "sd": 39.5506,
+        "sigmas": 1.3717,
+        "temp": 90
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          148.5753,
+          -32.2206
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 120,
+        "100%": 211,
+        "25%": 138.5,
+        "50%": 143,
+        "75%": 161.5,
+        "anomaly": -39.4286,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 153.4286,
+        "name": "DUBBO AIRPORT AWS",
+        "place_type": "CITY",
+        "sd": 29.4554,
+        "sigmas": 1.3386,
+        "temp": 114
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          147.9205,
+          -33.3627
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 133,
+        "100%": 199,
+        "25%": 133,
+        "50%": 153,
+        "75%": 176,
+        "anomaly": -38.8,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 158.8,
+        "name": "FORBES AIRPORT AWS",
+        "place_type": "CITY",
+        "sd": 28.6217,
+        "sigmas": 1.3556,
+        "temp": 120
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          150.9864,
+          -33.9181
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 134,
+        "100%": 214,
+        "25%": 158,
+        "50%": 174.5,
+        "75%": 181.5,
+        "anomaly": -20.8,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 170.8,
+        "name": "BANKSTOWN AIRPORT AWS",
+        "place_type": "CITY",
+        "sd": 19.1822,
+        "sigmas": 1.0843,
+        "temp": 150
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.1134,
+          -33.9057
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 149,
+        "100%": 197,
+        "25%": 174,
+        "50%": 182,
+        "75%": 188,
+        "anomaly": -27,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 178,
+        "name": "CANTERBURY RACECOURSE AWS",
+        "place_type": "CITY",
+        "sd": 18.262,
+        "sigmas": 1.4785,
+        "temp": 151
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.2633,
+          -33.8414
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 160,
+        "100%": 180,
+        "25%": 165,
+        "50%": 170,
+        "75%": 175,
+        "anomaly": -23,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 170,
+        "name": "SYDNEY HARBOUR (WEDDING CAKE W",
+        "place_type": "CITY",
+        "sd": 14.1421,
+        "sigmas": 1.6263,
+        "temp": 147
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          150.7281,
+          -33.8969
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 153,
+        "100%": 211,
+        "25%": 170,
+        "50%": 179,
+        "75%": 183,
+        "anomaly": -30.2,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 179.2,
+        "name": "BADGERYS CREEK AWS",
+        "place_type": "CITY",
+        "sd": 21.1943,
+        "sigmas": 1.4249,
+        "temp": 149
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          150.8567,
+          -33.8511
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 168,
+        "100%": 181,
+        "25%": 174.5,
+        "50%": 181,
+        "75%": 181,
+        "anomaly": -30.6667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 176.6667,
+        "name": "HORSLEY PARK EQUESTRIAN CENTRE",
+        "place_type": "CITY",
+        "sd": 7.5056,
+        "sigmas": 4.0859,
+        "temp": 146
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          150.689,
+          -34.0391
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 128,
+        "100%": 213,
+        "25%": 157,
+        "50%": 167,
+        "75%": 180,
+        "anomaly": -27.4,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 167.4,
+        "name": "CAMDEN AIRPORT AWS",
+        "place_type": "CITY",
+        "sd": 18.8282,
+        "sigmas": 1.4553,
+        "temp": 140
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          150.9291,
+          -34.3691
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 170,
+        "100%": 200,
+        "25%": 177.5,
+        "50%": 180,
+        "75%": 185,
+        "anomaly": -33.5,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 182.5,
+        "name": "BELLAMBI AWS",
+        "place_type": "CITY",
+        "sd": 12.5831,
+        "sigmas": 2.6623,
+        "temp": 149
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          150.79,
+          -34.5638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 180,
+        "100%": 180,
+        "25%": 180,
+        "50%": 180,
+        "75%": 180,
+        "anomaly": -36,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 180,
+        "name": "ALBION PARK (WOLLONGONG AIRPOR",
+        "place_type": "CITY",
+        "sd": 0,
+        "sigmas": "Inf",
+        "temp": 144
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          149.8197,
+          -34.4048
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 49,
+        "100%": 142,
+        "25%": 82,
+        "50%": 100,
+        "75%": 119,
+        "anomaly": -50.4483,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 100.4483,
+        "name": "TARALGA POST OFFICE",
+        "place_type": "CITY",
+        "sd": 25.8078,
+        "sigmas": 1.9548,
+        "temp": 50
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          149.7034,
+          -34.7495
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 69,
+        "100%": 157,
+        "25%": 92.5,
+        "50%": 104,
+        "75%": 125.25,
+        "anomaly": -47.6923,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 108.6923,
+        "name": "GOULBURN TAFE",
+        "place_type": "CITY",
+        "sd": 24.2747,
+        "sigmas": 1.9647,
+        "temp": 61
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          149.7312,
+          -34.8085
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 84,
+        "100%": 152,
+        "25%": 105.5,
+        "50%": 113.5,
+        "75%": 128.75,
+        "anomaly": -42.2,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 117.2,
+        "name": "GOULBURN AIRPORT AWS",
+        "place_type": "CITY",
+        "sd": 22.6215,
+        "sigmas": 1.8655,
+        "temp": 75
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          148.0141,
+          -35.778
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 57,
+        "100%": 166,
+        "25%": 98.25,
+        "50%": 110.5,
+        "75%": 118,
+        "anomaly": -36.0833,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 108.0833,
+        "name": "TUMBARUMBA POST OFFICE",
+        "place_type": "CITY",
+        "sd": 24.5816,
+        "sigmas": 1.4679,
+        "temp": 72
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          148.3842,
+          -35.9383
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": -13,
+        "100%": 104,
+        "25%": 3.5,
+        "50%": 30,
+        "75%": 55.5,
+        "anomaly": -32.5667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 32.5667,
+        "name": "CABRAMURRA SMHEA",
+        "place_type": "CITY",
+        "sd": 32.061,
+        "sigmas": 1.0158,
+        "temp": 0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          148.3779,
+          -35.9371
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 20,
+        "100%": 80,
+        "25%": 20,
+        "50%": 30,
+        "75%": 50,
+        "anomaly": -40,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 40,
+        "name": "CABRAMURRA SMHEA AWS",
+        "place_type": "CITY",
+        "sd": 28.2843,
+        "sigmas": 1.4142,
+        "temp": 0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          148.1405,
+          -36.2304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 110,
+        "100%": 130,
+        "25%": 115,
+        "50%": 120,
+        "75%": 125,
+        "anomaly": -42,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 120,
+        "name": "KHANCOBAN AWS",
+        "place_type": "CITY",
+        "sd": 10,
+        "sigmas": 4.2,
+        "temp": 78
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          148.5984,
+          -34.9997
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 78,
+        "100%": 170,
+        "25%": 101.25,
+        "50%": 123,
+        "75%": 135.25,
+        "anomaly": -33.1333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 118.1333,
+        "name": "BURRINJUCK DAM",
+        "place_type": "CITY",
+        "sd": 23.1944,
+        "sigmas": 1.4285,
+        "temp": 85
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          148.1718,
+          -33.9029
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 85,
+        "100%": 180,
+        "25%": 105,
+        "50%": 137,
+        "75%": 158,
+        "anomaly": -36.24,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 132.24,
+        "name": "GRENFELL (QUONDONG RD)",
+        "place_type": "CITY",
+        "sd": 30.4156,
+        "sigmas": 1.1915,
+        "temp": 96
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          148.0364,
+          -34.6299
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 120,
+        "100%": 171,
+        "25%": 125,
+        "50%": 138,
+        "75%": 158,
+        "anomaly": -47.4,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 142.4,
+        "name": "COOTAMUNDRA AIRPORT",
+        "place_type": "CITY",
+        "sd": 21.7094,
+        "sigmas": 2.1834,
+        "temp": 95
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          146.3574,
+          -35.9887
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 65,
+        "100%": 180,
+        "25%": 120,
+        "50%": 128,
+        "75%": 143,
+        "anomaly": 32.0714,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 127.9286,
+        "name": "COROWA AIRPORT",
+        "place_type": "CITY",
+        "sd": 28.6937,
+        "sigmas": 1.1177,
+        "temp": 160
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          144.952,
+          -35.5269
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 81,
+        "100%": 192,
+        "25%": 120,
+        "50%": 135,
+        "75%": 151,
+        "anomaly": 32.6452,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 138.3548,
+        "name": "DENILIQUIN (WILKINSON ST)",
+        "place_type": "CITY",
+        "sd": 27.3929,
+        "sigmas": 1.1917,
+        "temp": 171
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          142.1731,
+          -36.6697
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 110,
+        "100%": 130,
+        "25%": 115,
+        "50%": 120,
+        "75%": 125,
+        "anomaly": 18,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 120,
+        "name": "HORSHAM AERODROME",
+        "place_type": "CITY",
+        "sd": 14.1421,
+        "sigmas": 1.2728,
+        "temp": 138
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          143.7229,
+          -36.116
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 97,
+        "100%": 196,
+        "25%": 120.5,
+        "50%": 147,
+        "75%": 161.5,
+        "anomaly": -46.3333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 143.3333,
+        "name": "BOORT",
+        "place_type": "CITY",
+        "sd": 26.4809,
+        "sigmas": 1.7497,
+        "temp": 97
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          144.8726,
+          -36.6284
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 88,
+        "100%": 149,
+        "25%": 110,
+        "50%": 125,
+        "75%": 135,
+        "anomaly": -20.1111,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 122.1111,
+        "name": "WANALTA DAEN STATION",
+        "place_type": "CITY",
+        "sd": 19.3613,
+        "sigmas": 1.0387,
+        "temp": 102
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          146.7132,
+          -36.3702
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 49,
+        "100%": 147,
+        "25%": 67.5,
+        "50%": 74,
+        "75%": 103,
+        "anomaly": -38.7333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 87.7333,
+        "name": "BEECHWORTH COMPOSITE",
+        "place_type": "CITY",
+        "sd": 30.4431,
+        "sigmas": 1.2723,
+        "temp": 49
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          147.5394,
+          -36.2136
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 53,
+        "100%": 134,
+        "25%": 63.5,
+        "50%": 81,
+        "75%": 84.5,
+        "anomaly": -44.5714,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 80.5714,
+        "name": "HUNTERS HILL",
+        "place_type": "CITY",
+        "sd": 26.9744,
+        "sigmas": 1.6524,
+        "temp": 36
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          146.4671,
+          -36.7396
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 80,
+        "100%": 165,
+        "25%": 98.25,
+        "50%": 122,
+        "75%": 140.25,
+        "anomaly": 26.9167,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 121.0833,
+        "name": "EDI UPPER",
+        "place_type": "CITY",
+        "sd": 26.0261,
+        "sigmas": 1.0342,
+        "temp": 148
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          147.2755,
+          -36.8708
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": -10,
+        "100%": 86,
+        "25%": 3,
+        "50%": 17,
+        "75%": 31,
+        "anomaly": -34.8889,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 21.8889,
+        "name": "FALLS CREEK",
+        "place_type": "CITY",
+        "sd": 29.0105,
+        "sigmas": 1.2026,
+        "temp": -13
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          148.2625,
+          -37.22
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 40,
+        "100%": 131,
+        "25%": 90.5,
+        "50%": 105.5,
+        "75%": 124,
+        "anomaly": -32.75,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 98.75,
+        "name": "GELANTIPY",
+        "place_type": "CITY",
+        "sd": 32.6354,
+        "sigmas": 1.0035,
+        "temp": 66
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          149.0228,
+          -37.3417
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 55,
+        "100%": 154,
+        "25%": 90.5,
+        "50%": 129,
+        "75%": 137,
+        "anomaly": -41.2857,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 113.2857,
+        "name": "COMBIENBAR AWS",
+        "place_type": "CITY",
+        "sd": 36.1972,
+        "sigmas": 1.1406,
+        "temp": 72
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          145.9719,
+          -37.9039
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 90,
+        "100%": 183,
+        "25%": 108.5,
+        "50%": 120,
+        "75%": 132,
+        "anomaly": -39.1579,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 122.1579,
+        "name": "NOOJEE (SLIVAR)",
+        "place_type": "CITY",
+        "sd": 22.1917,
+        "sigmas": 1.7645,
+        "temp": 83
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          147.5669,
+          -37.8817
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 111,
+        "100%": 187,
+        "25%": 130,
+        "50%": 152,
+        "75%": 179,
+        "anomaly": -26.1765,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 154.1765,
+        "name": "BAIRNSDALE AIRPORT",
+        "place_type": "CITY",
+        "sd": 24.8853,
+        "sigmas": 1.0519,
+        "temp": 128
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          144.5569,
+          -37.4155
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 56,
+        "100%": 146,
+        "25%": 79.75,
+        "50%": 92.5,
+        "75%": 109.75,
+        "anomaly": 34.9167,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 97.0833,
+        "name": "MACEDON FORESTRY",
+        "place_type": "CITY",
+        "sd": 24.018,
+        "sigmas": 1.4538,
+        "temp": 132
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          143.9023,
+          -37.8779
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 94,
+        "100%": 150,
+        "25%": 107.5,
+        "50%": 121,
+        "75%": 135.5,
+        "anomaly": 28.3333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 121.6667,
+        "name": "WARRAMBINE NO 2",
+        "place_type": "CITY",
+        "sd": 28.006,
+        "sigmas": 1.0117,
+        "temp": 150
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          145.1517,
+          -41.1492
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 89,
+        "100%": 114,
+        "25%": 97.25,
+        "50%": 101.5,
+        "75%": 105.75,
+        "anomaly": -14.5,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 101.5,
+        "name": "LUNCHEON HILL (FORESTRY)",
+        "place_type": "CITY",
+        "sd": 10.2794,
+        "sigmas": 1.4106,
+        "temp": 87
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          146.7856,
+          -41.0556
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 116,
+        "100%": 130,
+        "25%": 122,
+        "50%": 128,
+        "75%": 129,
+        "anomaly": 10.3333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 124.6667,
+        "name": "LOW HEAD",
+        "place_type": "CITY",
+        "sd": 7.5719,
+        "sigmas": 1.3647,
+        "temp": 135
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          147.0794,
+          -41.7256
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 90,
+        "100%": 90,
+        "25%": 90,
+        "50%": 90,
+        "75%": 90,
+        "anomaly": 31,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 90,
+        "name": "CRESSY RESEARCH STATION",
+        "place_type": "CITY",
+        "sd": 0,
+        "sigmas": "Inf",
+        "temp": 121
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          147.2144,
+          -41.5492
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 85,
+        "100%": 121,
+        "25%": 86.5,
+        "50%": 98.5,
+        "75%": 112.75,
+        "anomaly": 24.25,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 100.75,
+        "name": "LAUNCESTON AIRPORT",
+        "place_type": "CITY",
+        "sd": 17.6328,
+        "sigmas": 1.3753,
+        "temp": 125
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          148.3036,
+          -41.8739
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 90,
+        "100%": 187,
+        "25%": 127,
+        "50%": 142,
+        "75%": 159,
+        "anomaly": -31.3333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 141.3333,
+        "name": "BICHENO (COUNCIL DEPOT)",
+        "place_type": "CITY",
+        "sd": 24.4568,
+        "sigmas": 1.2812,
+        "temp": 110
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          147.8753,
+          -42.5519
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 78,
+        "100%": 178,
+        "25%": 114,
+        "50%": 133,
+        "75%": 146.5,
+        "anomaly": -30.5806,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 129.5806,
+        "name": "ORFORD (AUBIN COURT)",
+        "place_type": "CITY",
+        "sd": 24.3595,
+        "sigmas": 1.2554,
+        "temp": 99
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          146.7683,
+          -43.2006
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 73,
+        "100%": 95,
+        "25%": 79.5,
+        "50%": 86,
+        "75%": 90.5,
+        "anomaly": -41.6667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 84.6667,
+        "name": "HARTZ MOUNTAIN (KEOGHS PIMPLE)",
+        "place_type": "CITY",
+        "sd": 11.0604,
+        "sigmas": 3.7672,
+        "temp": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          147.4614,
+          -42.4544
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 70,
+        "100%": 80,
+        "25%": 72.5,
+        "50%": 75,
+        "75%": 77.5,
+        "anomaly": 11,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 75,
+        "name": "TUNNACK FIRE STATION",
+        "place_type": "CITY",
+        "sd": 7.0711,
+        "sigmas": 1.5556,
+        "temp": 86
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          145.2083,
+          -41.4892
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 47,
+        "100%": 132,
+        "25%": 69,
+        "50%": 93,
+        "75%": 104,
+        "anomaly": 42.1765,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 89.8235,
+        "name": "SAVAGE RIVER MINE",
+        "place_type": "CITY",
+        "sd": 22.4868,
+        "sigmas": 1.8756,
+        "temp": 132
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          145.3358,
+          -41.8822
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 84,
+        "100%": 137,
+        "25%": 100,
+        "50%": 109,
+        "75%": 117,
+        "anomaly": -25.3333,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 109.3333,
+        "name": "ZEEHAN (WEST COAST PIONEERS MU",
+        "place_type": "CITY",
+        "sd": 15.5804,
+        "sigmas": 1.626,
+        "temp": 84
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          145.5419,
+          -41.8444
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 36,
+        "100%": 45,
+        "25%": 40,
+        "50%": 44,
+        "75%": 44.5,
+        "anomaly": -25.6667,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 41.6667,
+        "name": "MOUNT READ",
+        "place_type": "CITY",
+        "sd": 4.9329,
+        "sigmas": 5.2032,
+        "temp": 16
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          147.3153,
+          -39.4764
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 96,
+        "100%": 154,
+        "25%": 116.5,
+        "50%": 140.5,
+        "75%": 145.75,
+        "anomaly": 23.2143,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 130.7857,
+        "name": "DEAL ISLAND",
+        "place_type": "CITY",
+        "sd": 19.6632,
+        "sigmas": 1.1806,
+        "temp": 154
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          16.35,
+          48.2331
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 177,
+        "100%": 320,
+        "25%": 218.5,
+        "50%": 254,
+        "75%": 280.5,
+        "anomaly": -46.3871,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 248.3871,
+        "name": "WIEN",
+        "place_type": "CITY",
+        "sd": 40.2506,
+        "sigmas": 1.1525,
+        "temp": 202
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          15.45,
+          47.0831
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 193,
+        "100%": 293,
+        "25%": 229.5,
+        "50%": 249,
+        "75%": 270.5,
+        "anomaly": 73.2581,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 247.7419,
+        "name": "GRAZ",
+        "place_type": "CITY",
+        "sd": 30.6594,
+        "sigmas": 2.3894,
+        "temp": 321
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.717,
+          47.817
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": 24,
+        "100%": 190,
+        "25%": 94.5,
+        "50%": 140,
+        "75%": 165,
+        "anomaly": -48.6957,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": 130.6957,
+        "name": "FEUERKOGEL",
+        "place_type": "CITY",
+        "sd": 46.3793,
+        "sigmas": 1.0499,
+        "temp": 82
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -59.683,
+          -62.5
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": -52,
+        "100%": 12,
+        "25%": -18,
+        "50%": -1,
+        "75%": 4,
+        "anomaly": -19.7778,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": -9.2222,
+        "name": "BASE ARTURO PRAT",
+        "place_type": "CITY",
+        "sd": 19.5881,
+        "sigmas": 1.0097,
+        "temp": -29
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          39.583,
+          -69
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": -180,
+        "100%": -45,
+        "25%": -121,
+        "50%": -103,
+        "75%": -60,
+        "anomaly": 54.4615,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": -101.4615,
+        "name": "SYOWA",
+        "place_type": "CITY",
+        "sd": 43.2909,
+        "sigmas": 1.258,
+        "temp": -47
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          45.85,
+          -67.667
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": -155,
+        "100%": -44,
+        "25%": -107,
+        "50%": -59,
+        "75%": -51.5,
+        "anomaly": -69,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": -86,
+        "name": "MOLODEZNAJA",
+        "place_type": "CITY",
+        "sd": 60.2246,
+        "sigmas": 1.1457,
+        "temp": -155
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          106.867,
+          -78.45
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": -740,
+        "100%": -539,
+        "25%": -611,
+        "50%": -556.5,
+        "75%": -543.5,
+        "anomaly": -139,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": -598,
+        "name": "VOSTOK",
+        "place_type": "CITY",
+        "sd": 95.4882,
+        "sigmas": 1.4557,
+        "temp": -737
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          140.017,
+          -66.667
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": -230,
+        "100%": -61,
+        "25%": -115,
+        "50%": -107,
+        "75%": -68,
+        "anomaly": -53.8889,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": -106.1111,
+        "name": "DUMONT D'URVILLE",
+        "place_type": "CITY",
+        "sd": 52.1091,
+        "sigmas": 1.0342,
+        "temp": -160
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          0,
+          -90
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "0%": -661,
+        "100%": -467,
+        "25%": -578,
+        "50%": -533,
+        "75%": -511,
+        "anomaly": -125.96,
+        "date": "2023-07-12",
+        "event": "TMAX",
+        "mean": -545.04,
+        "name": "AMUNDSEN-SCOTT",
+        "place_type": "CITY",
+        "sd": 51.6095,
+        "sigmas": 2.4406,
+        "temp": -671
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [-109.05, 41.00],
+            [-102.06, 40.99],
+            [-102.03, 36.99],
+            [-109.04, 36.99],
+            [-109.05, 41.00]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "party": "Democrat"
+      },
+      "type": "Feature"
+    }
+  ]
+}
