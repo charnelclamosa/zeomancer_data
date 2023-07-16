@@ -8,10 +8,10 @@ RUN apk add --update npm \
 
 EXPOSE 1313
 
-WORKDIR /nycet
+WORKDIR /map_viz
 
 COPY ./ ./
 
-WORKDIR /nycet/src
+WORKDIR /map_viz/src
 
 CMD ["server", "--themesDir", "../themes"]

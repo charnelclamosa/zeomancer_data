@@ -1,4 +1,4 @@
-PROJECT = zatonovo_recorded_temp_viz_poc
+PROJECT = map_viz
 #VERSION ?= $(shell git describe --abbrev=0 --tags)
 VERSION ?= latest
 IMAGE ?= $(PROJECT):$(VERSION)

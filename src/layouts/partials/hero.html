@@ -1,5 +1,7 @@
 
 {{ $events := .Site.Data.events.payload }}
+{{ $max_temp := .Site.Data.max_temp_20230714.features }}
+
 <div class="container text-center pt-4 pb-2">
   <h2>Recorded Temperature Visualizer</h2>
 </div>
@@ -35,7 +37,8 @@
   const _FILTER_DATE_PAST_DAY = 'past_day'
   const _FILTER_DATE_PAST_WEEK = 'past_week'
   const _FILTER_DATE_PAST_MONTH = 'past_month'
-  let events = {{ $events }};
+  //let events = {{ $events }};
+  let events = {{ $max_temp }};
   
   // function foo() {
   //   events.forEach(element => {
@@ -64,6 +67,49 @@
   
   var popup = L.popup();
 
+  // Use this for a precipitation overlay
+  function load_raster_ovelay() {
+    d3.request("/data/precipitation.tif").responseType('arraybuffer').get(
+      function (error, tiffData) {
+        console.log(`TIFF error: {error}`)
+        let dem = L.ScalarField.fromGeoTIFF(tiffData.response);
+        let layerDem = L.canvasLayer.scalarField(dem, {
+            color: chroma.scale('Spectral').domain([80, 0])
+        }).addTo(map);
+
+        map.fitBounds(layerDem.getBounds());
+
+        /* dynamic filtering */
+        filter_fn = function(v) { return v > 1 }
+        layerDem.setFilter(filter_fn)
+        /*
+        let height = document.getElementById('height');
+        height.addEventListener('change', function () {
+          let h = height.value;
+          let f = function (v) {
+              return v >= 0 && v <= h;
+          };
+          layerDem.setFilter(f);
+          document.getElementById('meters').innerHTML = '< ' + h + ' m'
+        });
+        */
+
+        /* popup */
+        /*
+        layerDem.on('click', function (e) {
+          if (e.value !== null) {
+            let v = e.value.toFixed(1);
+            let html = (`<span class="popupText">${v} meters</span>`);
+            let popup = L.popup()
+                .setLatLng(e.latlng)
+                .setContent(html)
+                .openOn(map);
+          }
+        });
+        */
+      });
+    }
+
   // function onMapClick(e) {
   //   popup
   //       .setLatLng(e.latlng)
@@ -75,12 +121,11 @@
 
   function generateHTMLHeadline(props) {
     // const placeType = props.place_type
-    const event = props.event == 'TMAX' ? 'max temperature' : 'low temperature'; 
-    let content = `
-      ${props.date}
+    //const event = props.event == 'TMAX' ? 'max temperature' : 'low temperature'; 
+    let content = `<strong>${props.name}</strong>
       <hr>
       <p>
-        <strong>${props.name}</strong> records a ${event} of <strong>${props.temp}</strong> °F.
+      Max temp on ${props.date}: <strong>${props.max}</strong> °F.
       </p>
     `
     return content
@@ -90,23 +135,44 @@
   function addPopups(feature, layer) {
     let props = feature.properties
     if (props) {
+      let label = `${feature.properties.max} °F`
       layer.bindPopup(generateHTMLHeadline(feature.properties));
-      layer.bindTooltip({
+      layer.bindTooltip(label, {
         permanent: true,
-        direction: 'center',
-        className: "my-labels"
-      })
+        direction: 'auto',
+        className: "my-labels",
+        opacity: 1
+      }).openTooltip()
     }
   }
 
   function createCustomMarker(feature, latlng) {
+    /*
     let customIcon = L.icon({
       iconUrl: "/images/icons/marker.png",
       iconSize: [35, 35],
       popupAnchor: [0, 0]
     })
     return L.marker(latlng, { icon: customIcon })
+    */
+
+    let radius = 10
+    let color = '#BB2222'
+    let weight = 1
+
+    if (feature.properties.max >= 120) {
+      color = '#FF0000'
+      weight = 2
+    }
+
+    return L.circleMarker(latlng, {
+      color: color,
+      radius: radius,
+      weight: weight
+    })
+
   }
+
   
   function displayMarkers(eventFilter, dateRange) {
     var geoJsonLayer = L.geoJSON(events, {
