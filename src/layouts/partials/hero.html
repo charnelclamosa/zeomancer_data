@@ -7,6 +7,18 @@
 </div>
 <section class="d-flex flex-row">
 <section class="d-flex flex-column p-2">
+  <!-- TODO: Need to update map and controls when this changes -->
+  <label>Temperature units</label>
+  <div class="input-group mb-3">
+    <input type="radio" class="btn-check" name="temp_units" id="C" autocomplete="off">
+    <label class="btn btn-secondary" for="C" onclick='setTempUnit("C")'>C</label>
+
+    <input type="radio" class="btn-check" name="temp_units" id="F" autocomplete="off" checked>
+    <label class="btn btn-secondary" for="F" onclick='setTempUnit("F")'>F</label>
+  </div>
+
+  <hr/>
+
   <label for="min_temp">Minimum temperature</label>
   <div class="range-wrap">
     <div class="range-value" id="min_temp_tooltip"></div>
@@ -14,11 +26,13 @@
       min="100" max="120" value="100"
       onchange="filterMarkers()"/>
   </div>
+
   <hr/>
+
   <label for="date_range">Date Range</label>
   <select name="date_range" id="date_range" onchange="filterMarkers()">
     <option value="1">Past 24 hours</option>
-    <option value="7">Past week</option>
+    <option value="7" selected>Past week</option>
     <option value="31">Past month</option>
   </select>
 </section>
@@ -39,6 +53,8 @@
   const _FILTER_DATE_PAST_MONTH = 'past_month'
   //let events = {{ $events }};
   let events = {{ $max_temp }};
+  // Holds places to aggregate multiple temperature points
+  let places = { }
   let unit = 'F'
 
   function getTempUnit() {
@@ -47,6 +63,13 @@
 
   function setTempUnit(u) {
     unit = u
+  }
+
+  // Get temperature in correct units
+  function getTempValue(v) {
+    if (unit == 'F') return v
+    let c = (v - 32) * 5 / 9
+    return Math.round(c*10)/10
   }
 
   const 
@@ -58,7 +81,7 @@
       value = Number( (min_temp_range.value - min_temp_range.min) * 100 / (min_temp_range.max - min_temp_range.min) ),
       position = 10 - (value * 0.2);
 
-    min_temp_tooltip.innerHTML = `<span>${min_temp_range.value} ${getTempUnit()}</span>`;
+    min_temp_tooltip.innerHTML = `<span>${getTempValue(min_temp_range.value)} ${getTempUnit()}</span>`;
     min_temp_tooltip.style.left = `calc(${value}% + (${position}px))`;
   }
 
@@ -150,7 +173,7 @@
     let content = `<strong>${props.name}</strong>
       <hr>
       <p>
-      Max temp on ${props.date_str}: <strong>${props.max}</strong> ${getTempUnit()}.
+      Max temp on ${props.date_str}: <strong>${getTempValue(props.max)}</strong> ${getTempUnit()}.
       </p>
     `
     return content
@@ -160,8 +183,8 @@
   function addPopups(feature, layer) {
     let props = feature.properties
     if (props) {
-      let label = `${feature.properties.max} ${getTempUnit()}`
-      layer.bindPopup(generateHTMLHeadline(feature.properties));
+      let label = `${getTempValue(feature.properties.max)} ${getTempUnit()}`
+      layer.bindPopup(generateHTMLHeadline(feature.properties))
       layer.bindTooltip(label, {
         permanent: true,
         direction: 'auto',
@@ -190,12 +213,20 @@
       weight = 2
     }
 
-    return L.circleMarker(latlng, {
+    let marker = L.circleMarker(latlng, {
       color: color,
       radius: radius,
       weight: weight
     })
+    marker.on('mouseover', function() {
+      let props = this.feature.properties
+      console.log("mouseover event: ")
+      console.log(props)
 
+      // TODO: construct label using places variable
+      //this.getPopup().setContent('foo')
+    })
+    return marker
   }
 
   function getPastDate(days) {
@@ -216,6 +247,26 @@
     return props.max >= min_temp
   }
   
+  function resetPlaces() {
+    places = { }
+  }
+
+  function getPlace(name) {
+    return places[name]
+  }
+
+  function hasPlace(name) {
+    return places[name] !== undefined
+  }
+
+  function putPlace(name, date, temp) {
+    if (hasPlace(name)) {
+      places[name][date] = temp
+    } else {
+      places[name] = {date: temp}
+    }
+  }
+
   function displayMarkers(min_temp, days) {
     let min_date = getPastDate(days)
     console.log(`Got min_date: ${min_date}`)
@@ -225,7 +276,16 @@
       filter: (feature, layer) => {
         date_mask = filterDate(feature, layer, min_date)
         temp_mask = filterTemp(feature, layer, min_temp)
-        return date_mask && temp_mask
+        if (! (date_mask && temp_mask)) return false
+
+        let props = feature.properties
+        if (hasPlace(props.name)) {
+          putPlace(props.name, props.date, props.max)
+          return false
+        }
+
+        putPlace(props.name, props.date, props.max)
+        return true
       },
       onEachFeature: addPopups
     })
@@ -240,6 +300,7 @@
 
   function removeMarkers() {
     markers.clearLayers();
+    resetPlaces()
   }
   
   function filterMarkers() {
