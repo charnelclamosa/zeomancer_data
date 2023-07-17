@@ -1,33 +1,33 @@
 
 {{ $events := .Site.Data.events.payload }}
-{{ $max_temp := .Site.Data.max_temp_20230714.features }}
+{{ $max_temp := .Site.Data.max_temp_20230717.features }}
 
 <div class="container text-center pt-4 pb-2">
   <h2>Recorded Temperature Visualizer</h2>
 </div>
-<section class="d-flex justify-content-between p-2">
-  <div>
-    <label for="event_type">Filter by event type:</label>
-    <select name="event_type" id="event_type" onchange="filterMarkers()">
-      <option value="all_temp">All</option>
-      <option value="TMAX">Maximum temperature</option>
-      <option value="TLOW">Lowest temperature</option>
-    </select>
+<section class="d-flex flex-row">
+<section class="d-flex flex-column p-2">
+  <label for="min_temp">Minimum temperature</label>
+  <div class="range-wrap">
+    <div class="range-value" id="min_temp_tooltip"></div>
+    <input type="range" class="form-range" id="min_temp" 
+      min="100" max="120" value="100"
+      onchange="filterMarkers()"/>
   </div>
-  <div>
-    <div>
-      <label for="date_range">Filter by:</label>
-      <select name="date_range" id="date_range" onchange="filterMarkers()">
-        <option value="past_day">Past 24 hours</option>
-        <option value="past_week">Past week</option>
-        <option value="past_month">Past month</option>
-      </select>
-    </div>
-  </div>
+  <hr/>
+  <label for="date_range">Date Range</label>
+  <select name="date_range" id="date_range" onchange="filterMarkers()">
+    <option value="1">Past 24 hours</option>
+    <option value="7">Past week</option>
+    <option value="31">Past month</option>
+  </select>
 </section>
+
 <section class="hero" id="home">
   <div id="map"></div>
 </section>
+</section>
+
 <script>
   const _TMAX = 'TMAX'
   const _TLOW = 'TLOW'
@@ -39,6 +39,31 @@
   const _FILTER_DATE_PAST_MONTH = 'past_month'
   //let events = {{ $events }};
   let events = {{ $max_temp }};
+  let unit = 'F'
+
+  function getTempUnit() {
+    return `°${unit}`
+  }
+
+  function setTempUnit(u) {
+    unit = u
+  }
+
+  const 
+    min_temp_range = document.getElementById('min_temp'),
+    min_temp_tooltip = document.getElementById('min_temp_tooltip')
+
+  function setMaxTempTooltip() {
+    const
+      value = Number( (min_temp_range.value - min_temp_range.min) * 100 / (min_temp_range.max - min_temp_range.min) ),
+      position = 10 - (value * 0.2);
+
+    min_temp_tooltip.innerHTML = `<span>${min_temp_range.value} ${getTempUnit()}</span>`;
+    min_temp_tooltip.style.left = `calc(${value}% + (${position}px))`;
+  }
+
+  document.addEventListener("DOMContentLoaded", setMaxTempTooltip)
+  min_temp_range.addEventListener("input", setMaxTempTooltip)
   
   // function foo() {
   //   events.forEach(element => {
@@ -125,7 +150,7 @@
     let content = `<strong>${props.name}</strong>
       <hr>
       <p>
-      Max temp on ${props.date}: <strong>${props.max}</strong> °F.
+      Max temp on ${props.date_str}: <strong>${props.max}</strong> ${getTempUnit()}.
       </p>
     `
     return content
@@ -135,7 +160,7 @@
   function addPopups(feature, layer) {
     let props = feature.properties
     if (props) {
-      let label = `${feature.properties.max} °F`
+      let label = `${feature.properties.max} ${getTempUnit()}`
       layer.bindPopup(generateHTMLHeadline(feature.properties));
       layer.bindTooltip(label, {
         permanent: true,
@@ -173,37 +198,44 @@
 
   }
 
+  function getPastDate(days) {
+    let date = new Date()
+    date.setDate(date.getDate() - days)
+    return date
+  }
+
+  function filterDate(feature, layer, min_date) {
+    const props = feature.properties
+    let date = new Date(props.date)
+    //console.log(`Point date: ${date}`)
+    return date.getTime() >= min_date.getTime()
+  }
+
+  function filterTemp(feature, layer, min_temp) {
+    const props = feature.properties
+    return props.max >= min_temp
+  }
   
-  function displayMarkers(eventFilter, dateRange) {
+  function displayMarkers(min_temp, days) {
+    let min_date = getPastDate(days)
+    console.log(`Got min_date: ${min_date}`)
+
     var geoJsonLayer = L.geoJSON(events, {
       pointToLayer: createCustomMarker,
-      // filter: (feature, layer) => {
-      //   const props = feature.properties;
-      //   if (eventFilter == _FILTER_EVENT_ALL) {
-      //     if (dateRange == _FILTER_DATE_PAST_DAY) return props.date >= getPastDay();
-      //     if (dateRange == _FILTER_DATE_PAST_WEEK) return props.date >= getPastWeek();
-      //     if (dateRange == _FILTER_DATE_PAST_MONTH) return props.date >= getPastMonth();
-      //   };
-      //   if (eventFilter == _FILTER_EVENT_TMAX) {
-      //     if (dateRange == _FILTER_DATE_PAST_DAY) return props.event == _TMAX && props.date >= getPastDay();
-      //     if (dateRange == _FILTER_DATE_PAST_WEEK) return props.event == _TMAX && props.date >= getPastWeek();
-      //     if (dateRange == _FILTER_DATE_PAST_MONTH) return props.event == _TMAX && props.date >= getPastMonth();
-      //   };
-      //   if (eventFilter == _FILTER_EVENT_TLOW) {
-      //     if (dateRange == _FILTER_DATE_PAST_DAY) return props.event == _TLOW && props.date >= getPastDay();
-      //     if (dateRange == _FILTER_DATE_PAST_WEEK) return props.event == _TLOW && props.date >= getPastWeek();
-      //     if (dateRange == _FILTER_DATE_PAST_MONTH) return props.event == _TLOW && props.date >= getPastMonth();
-      //   };
-      // },
+      filter: (feature, layer) => {
+        date_mask = filterDate(feature, layer, min_date)
+        temp_mask = filterTemp(feature, layer, min_temp)
+        return date_mask && temp_mask
+      },
       onEachFeature: addPopups
-    });
-    markers.addLayer(geoJsonLayer);
-    map.addLayer(markers);
+    })
+
+    markers.addLayer(geoJsonLayer)
+    map.addLayer(markers)
     if (Object.keys(markers.getBounds()).length == 0) {
       return map.setView([39.997519, -95.185547], 5)
     }
-    map.fitBounds(markers.getBounds());
-    
+    map.fitBounds(markers.getBounds())
   }
 
   function removeMarkers() {
@@ -211,11 +243,12 @@
   }
   
   function filterMarkers() {
-    const selectedEventFilter = $('#event_type').find(":selected").val();
-    const selectedDateRange = $('#date_range').find(":selected").val();
+    const min_temp = $('#min_temp').val();
+    const days = $('#date_range').find(":selected").val();
+    //console.log(`Min temp: ${min_temp}`)
 
     removeMarkers();
-    displayMarkers(selectedEventFilter, selectedDateRange);
+    displayMarkers(min_temp, days);
   }
 
   function getPastDay() {
