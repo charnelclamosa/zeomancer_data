@@ -58,6 +58,9 @@
   const _FILTER_DATE_PAST_DAY = 'past_day'
   const _FILTER_DATE_PAST_WEEK = 'past_week'
   const _FILTER_DATE_PAST_MONTH = 'past_month'
+
+  let raster_overlay_file = 'data/heatmap_20230715.tif'
+
   //let events = {{ $events }};
   let events = {{ $max_temp }};
   // Holds places to aggregate multiple temperature points
@@ -145,18 +148,21 @@
 
   // Use this for a precipitation overlay
   function load_raster_ovelay() {
-    d3.request("/data/precipitation.tif").responseType('arraybuffer').get(
+    const min_temp = $('#min_temp').val()
+
+    d3.request(raster_overlay_file).responseType('arraybuffer').get(
       function (error, tiffData) {
-        console.log(`TIFF error: {error}`)
+        console.log(`TIFF error: ${error}`)
         let dem = L.ScalarField.fromGeoTIFF(tiffData.response);
         let layerDem = L.canvasLayer.scalarField(dem, {
-            color: chroma.scale('Spectral').domain([80, 0])
+            color: chroma.scale(['#ffff0033', '#ff000033']).domain([100, 130])
+            //color: chroma.scale('Spectral').domain([80, 0])
         }).addTo(map);
 
         map.fitBounds(layerDem.getBounds());
 
         /* dynamic filtering */
-        filter_fn = function(v) { return v > 1 }
+        filter_fn = function(v) { return v >= min_temp }
         layerDem.setFilter(filter_fn)
         /*
         let height = document.getElementById('height');
@@ -354,6 +360,8 @@
     return moment().subtract(1, 'months').format('YYYY-MM-DD');
   }
 
+
+  load_raster_ovelay()
   filterMarkers()
   
 
