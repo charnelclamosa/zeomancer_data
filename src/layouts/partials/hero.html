@@ -55,7 +55,27 @@
   let events = {{ $max_temp }};
   // Holds places to aggregate multiple temperature points
   let places = { }
+  // Holds temperature unit
   let unit = 'F'
+
+  function resetPlaces() {
+    places = { }
+  }
+
+  function getPlace(name) {
+    return places[name]
+  }
+
+  function hasPlace(name) {
+    return places[name] !== undefined
+  }
+
+  function putPlace(name, date, temp) {
+    if (! hasPlace(name)) {
+      places[name] = { }
+    }
+    places[name][date] = temp
+  }
 
   function getTempUnit() {
     return `°${unit}`
@@ -170,11 +190,15 @@
   function generateHTMLHeadline(props) {
     // const placeType = props.place_type
     //const event = props.event == 'TMAX' ? 'max temperature' : 'low temperature'; 
+    let temps = places[props.name]
+    console.log(temps)
+    let keys = Object.keys(temps).sort().reverse()
+    
+    let text = keys.reduce((acc, k, i) => acc + `<br/>${k}: ${temps[k]} ${getTempUnit()}`, "")
+
     let content = `<strong>${props.name}</strong>
       <hr>
-      <p>
-      Max temp on ${props.date_str}: <strong>${getTempValue(props.max)}</strong> ${getTempUnit()}.
-      </p>
+      <p>${text}</p>
     `
     return content
 
@@ -220,11 +244,10 @@
     })
     marker.on('mouseover', function() {
       let props = this.feature.properties
-      console.log("mouseover event: ")
-      console.log(props)
+      //console.log("mouseover event: ")
+      //console.log(props)
 
-      // TODO: construct label using places variable
-      //this.getPopup().setContent('foo')
+      this.getPopup().setContent(generateHTMLHeadline(props))
     })
     return marker
   }
@@ -247,26 +270,6 @@
     return props.max >= min_temp
   }
   
-  function resetPlaces() {
-    places = { }
-  }
-
-  function getPlace(name) {
-    return places[name]
-  }
-
-  function hasPlace(name) {
-    return places[name] !== undefined
-  }
-
-  function putPlace(name, date, temp) {
-    if (hasPlace(name)) {
-      places[name][date] = temp
-    } else {
-      places[name] = {date: temp}
-    }
-  }
-
   function displayMarkers(min_temp, days) {
     let min_date = getPastDate(days)
     console.log(`Got min_date: ${min_date}`)
