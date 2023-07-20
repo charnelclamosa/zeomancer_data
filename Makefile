@@ -1,4 +1,4 @@
-PROJECT = map_viz
+PROJECT = zeomancer_data
 #VERSION ?= $(shell git describe --abbrev=0 --tags)
 VERSION ?= latest
 IMAGE ?= $(PROJECT):$(VERSION)

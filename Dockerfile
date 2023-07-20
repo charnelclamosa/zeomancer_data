@@ -8,10 +8,10 @@ RUN apk add --update npm \
 
 EXPOSE 1313
 
-WORKDIR /map_viz
+WORKDIR /zeomancer_data
 
 COPY ./ ./
 
-WORKDIR /map_viz/src
+WORKDIR /zeomancer_data/src
 
 CMD ["server", "--themesDir", "../themes"]

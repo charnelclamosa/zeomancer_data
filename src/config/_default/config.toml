@@ -2,7 +2,7 @@ baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 paginate = 3
 theme = "portio"
-title = "Recorded Temperature Visualizer"
+title = "Zeomancer Web -- Data"
 
 # Site Parameters
 [params]
