@@ -13,5 +13,10 @@
   # Default build command.
   # command = "hugo --environment production --themesDir ../themes"
 
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
+
 [build.environment]
 HUGO_VERSION = "0.80.0"
